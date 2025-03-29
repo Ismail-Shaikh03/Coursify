@@ -22,13 +22,19 @@ const db= mysql.createConnection({
     database:process.env.DB_NAME
 });
 
-app.get('/checkUserExist',(req,res)=> {
-    const sql = "Select * FROM Courses";
-    db.query(sql,(err,data)=>{
-        if(err) return res.json(err);
-        return res.json(data);
+const getCourseByCRN = (crn) => {
+    return new Promise((resolve, reject) => {
+        const sql = "SELECT * FROM Courses C, Prof_Ratings P WHERE P.Instructor = C.Instructor AND P.instructor in (SELECT instructor FROM Courses WHERE crn = ?) ";
+        db.query(sql, [crn], (err, results) => {
+            if (err) {
+                console.error("DB error in getCourseByCRN:", err);
+                return reject(err);
+            }
+            resolve(results[0] || null);
+        });
     });
-});
+};
+
 
 
 // Chat
@@ -62,7 +68,37 @@ app.post("/chat", async (req, res) => {
                 .map((message) => message.content[0]?.text?.value || "");
 
             console.log("Finised: OK");
-            return res.json(responses);
+            
+    
+            
+            let crns = [];
+
+            try {
+                // Parse the first response as JSON
+                const parsed = JSON.parse(responses[0]); // assuming assistant returns one big JSON string
+                crns = parsed.classes.map((c) => c.crn).filter(Boolean);
+            } catch (err) {
+                console.error("❌ Failed to parse assistant response:", responses[0]);
+                return res.status(500).json({ error: "Invalid assistant response format" });
+            }
+            
+            if (crns.length === 0) {
+                return res.status(404).json({ error: "No CRNs found in assistant response" });
+            }
+            
+            // Query the database for each CRN
+            const courseResults = await Promise.all(
+                crns.map((crn) =>
+                    getCourseByCRN(crn).catch((err) => {
+                        console.error(`Error querying CRN ${crn}:`, err);
+                        return null;
+                    })
+                )
+            );
+            
+            const courses = courseResults.filter(Boolean);
+            return res.json(courses);
+            
         } else {
             console.log(`Finised: ${run.status}`);
             return res.status(200).json({ status: run.status });
