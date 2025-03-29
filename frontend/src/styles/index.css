@@ -1,0 +1,342 @@
+:root {
+  /* Primary NJIT Colors - Updated to your requested palette */
+  --njit-red: #F7374F; /* Primary red from your palette */
+  --njit-red-darker: #d52b41; /* Darker shade of your primary */
+  --njit-red-lighter: #f9586e; /* Lighter shade of your primary */
+  --njit-secondary: #88304E; /* Burgundy from your palette */
+  --njit-tertiary: #522546; /* Deep purple from your palette */
+  --njit-dark: #2C2C2C; /* Dark gray/black from your palette */
+  --njit-light: #F4F4F4;
+  --njit-gray: #95A5A6;
+  
+  /* Additional palette colors */
+  --njit-accent: #0077B5; /* Blue for accents and buttons */
+  --njit-success: #27AE60;
+  --njit-warning: #F39C12;
+  --njit-error: #E74C3C;
+  
+  /* Typography */
+  font-family: 'Montserrat', 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  
+  /* Color scheme */
+  color-scheme: light;
+  color: var(--njit-dark);
+  background-color: var(--njit-light);
+  
+  /* Rendering optimizations */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(244, 244, 244, 0.95), rgba(244, 244, 244, 0.95)), 
+                    url('/assets/njit-campus-bg.svg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Modern Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--njit-light);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--njit-red);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--njit-red-darker);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--njit-dark);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+h1:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background-color: var(--njit-red);
+  border-radius: 2px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: var(--njit-red);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+a:hover {
+  color: var(--njit-red-darker);
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--njit-red);
+  transition: width 0.3s ease;
+}
+
+a:hover:after {
+  width: 100%;
+}
+
+/* Buttons */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.8em 1.5em;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: var(--njit-red);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: var(--njit-red-darker);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(247, 55, 79, 0.3);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(20, 20);
+    opacity: 0;
+  }
+}
+
+button:active:after {
+  animation: ripple 0.6s ease-out;
+}
+
+/* Form elements */
+input, select, textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  border: 2px solid var(--njit-gray);
+  border-radius: 8px;
+  background-color: white;
+  transition: all 0.2s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--njit-red);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(247, 55, 79, 0.2);
+}
+
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23333F48' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1em center;
+  padding-right: 2.5em;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+/* Custom containers and layouts */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background-color: var(--njit-red);
+  border-radius: 4px 0 0 4px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Grid layouts */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Hexagonal elements */
+.hex-button {
+  position: relative;
+  width: 150px;
+  height: 86px;
+  background: var(--njit-red);
+  color: white;
+  text-align: center;
+  line-height: 86px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.hex-button:hover {
+  background: var(--njit-red-darker);
+  transform: scale(1.05);
+}
+
+/* Animation Classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  .container { width: 95%; padding: 1rem 0; }
+  .grid { grid-template-columns: 1fr; }
+  .hex-button { width: 120px; height: 69px; line-height: 69px; font-size: 0.9rem; }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    color: #f4f4f4;
+    background-color: #1a1a1a;
+  }
+  
+  body {
+    background-image: linear-gradient(rgba(26, 26, 26, 0.95), rgba(26, 26, 26, 0.95)), 
+                       url('/assets/njit-campus-bg.svg');
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #f4f4f4;
+  }
+  
+  .card {
+    background: #262626;
+  }
+  
+  input, select, textarea {
+    background-color: #333;
+    color: #f4f4f4;
+    border-color: #444;
+  }
+  
+  select {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f4f4f4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  }
+}
