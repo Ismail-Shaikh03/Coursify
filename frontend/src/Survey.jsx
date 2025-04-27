@@ -19,6 +19,32 @@ const Survey = () => {
     }
   ]);
   
+  const allData= useRef({
+    major: "",
+    year: "",
+    time: ""
+  });
+
+  
+
+  const handleSubmit = (data,address) => {
+    const serializedBody = JSON.stringify(data); 
+    const fetchChoices = { 
+      method: 'POST', 
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: serializedBody,
+    };
+    //console.log(serializedBody);
+    fetch(address, fetchChoices).then(response =>{
+      if(response.ok){
+          return response.json();
+      }
+    }).then(json => {
+      console.log(json);
+    }); 
+  };
   // State for selected courses - starts empty
   const [selectedCourses, setSelectedCourses] = useState([]);
   
@@ -86,7 +112,6 @@ const Survey = () => {
   
   // Days of the week - updated to include Saturday
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  
   // Auto-scroll chat to bottom when messages change
   useEffect(() => {
     if (chatMessagesRef.current) {
@@ -100,31 +125,35 @@ const Survey = () => {
     
     // Get the last bot question
     const lastBotMessage = [...messages].reverse().find(msg => msg.type === 'bot');
-    
     // Add appropriate follow-up based on the last question
     if (lastBotMessage) {
       if (lastBotMessage.text.includes('full-time or part-time')) {
+        allData.current.time = option;
         setTimeout(() => {
           addMessage('bot', "What's your major?", [
             "Computer Science", "Information Technology", "Business", "Engineering", "Other"
           ]);
         }, 500);
       } else if (lastBotMessage.text.includes('major')) {
+        allData.current.major = option;
+
         setTimeout(() => {
           addMessage('bot', "What's your current academic standing?", [
             "Freshman", "Sophomore", "Junior", "Senior"
           ]);
         }, 500);
       } else if (lastBotMessage.text.includes('standing')) {
+        allData.current.year = option;
         // Only show the waiting message and don't proceed to recommendations
         setTimeout(() => {
           addMessage('bot', "Please wait while I retrieve the information for you...");
           // No further messages or actions after this
         }, 500);
+        handleSubmit(allData,import.meta.env.VITE_SEND_RESPONSE);
       }
     }
     
-    // Check if option is a course
+    // Check if option is a course ?? Left over??
     if (option.includes('(') && option.includes(')')) {
       const courseCode = option.split(' ')[0] + ' ' + option.split(' ')[1];
       addCourse(courseCode);

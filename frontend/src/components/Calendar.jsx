@@ -14,7 +14,7 @@ const Calendar = ({ semester, timeSlots, daysOfWeek, getCourseForCell }) => {
       <table className="calendar">
         <thead>
           <tr>
-            <th></th> {/* Empty corner cell */}
+            {/* Empty corner <th></th> cell  Left over???*/}
             {daysOfWeek.map(day => (
               <th key={day}></th> /* Empty th cells, days shown above */
             ))}
