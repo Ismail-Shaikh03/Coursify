@@ -22,10 +22,19 @@ const Survey = () => {
   const allData= useRef({
     major: "",
     year: "",
-    time: ""
+    time: "",
+    semester: ""
   });
 
-  
+  //Use encodings 
+  /**
+   * 0: Initial Search and return of the assistant
+   */
+  const handleJSON = (json) =>{
+    if(json.code == 0){
+    console.log(json);
+    }
+  }
 
   const handleSubmit = (data,address) => {
     const serializedBody = JSON.stringify(data); 
@@ -42,9 +51,11 @@ const Survey = () => {
           return response.json();
       }
     }).then(json => {
-      console.log(json);
+      handleJSON(json); //Usable json for front end
     }); 
   };
+
+
   // State for selected courses - starts empty
   const [selectedCourses, setSelectedCourses] = useState([]);
   
@@ -126,6 +137,10 @@ const Survey = () => {
     // Get the last bot question
     const lastBotMessage = [...messages].reverse().find(msg => msg.type === 'bot');
     // Add appropriate follow-up based on the last question
+
+    /**
+     * This entire thing need's to be overhauled.
+     */
     if (lastBotMessage) {
       if (lastBotMessage.text.includes('full-time or part-time')) {
         allData.current.time = option;
@@ -142,15 +157,22 @@ const Survey = () => {
             "Freshman", "Sophomore", "Junior", "Senior"
           ]);
         }, 500);
-      } else if (lastBotMessage.text.includes('standing')) {
+      }else if (lastBotMessage.text.includes('standing')) {
         allData.current.year = option;
+        // Only show the waiting message and don't proceed to recommendations
+        setTimeout(() => {
+          addMessage('bot', "Which semester are you planning for?", [
+            "Fall","Spring"]);
+        }, 500);
+      } else if (lastBotMessage.text.includes('semester')) {
+        allData.current.semester = option;
         // Only show the waiting message and don't proceed to recommendations
         setTimeout(() => {
           addMessage('bot', "Please wait while I retrieve the information for you...");
           // No further messages or actions after this
         }, 500);
         handleSubmit(allData,import.meta.env.VITE_SEND_RESPONSE);
-      }
+      } 
     }
     
     // Check if option is a course ?? Left over??
