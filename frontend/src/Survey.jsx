@@ -54,6 +54,7 @@ const Survey = () => {
       location: 'GITC 3600',
       days: ['Tuesday'],
       time: '6:00 pm',
+      endTime: '9:00 pm',
       color: 'it'
     },
     'IT 342': {
@@ -63,6 +64,7 @@ const Survey = () => {
       location: 'FMH 313',
       days: ['Wednesday'],
       time: '6:00 pm',
+      endTime: '9:00 pm',
       color: 'it'
     },
     'IT 332': {
@@ -72,6 +74,7 @@ const Survey = () => {
       location: 'CKB 226',
       days: ['Friday'],
       time: '6:00 pm',
+      endTime: '9:00 pm',
       color: 'it'
     },
     'COM 312': {
@@ -81,6 +84,7 @@ const Survey = () => {
       location: 'FMH 405',
       days: ['Monday', 'Wednesday'],
       time: '1:00 pm',
+      endTime: '2:30 pm',
       color: 'com'
     },
     'HSS 404': {
@@ -90,15 +94,18 @@ const Survey = () => {
       location: 'CKB 315',
       days: ['Monday', 'Wednesday'],
       time: '4:00 pm',
+      endTime: '5:30 pm',
       color: 'hss'
     }
   };
 
   const timeSlots = [
-    '8:00 am', '9:00 am', '10:00 am', '11:00 am',
-    '12:00 pm', '1:00 pm', '2:00 pm', '3:00 pm', '4:00 pm', '5:00 pm',
-    '6:00 pm', '7:00 pm', '8:00 pm', '9:00 pm'
+    '8:30 am', '9:00 am', '9:30 am', '10:00 am', '10:30 am', '11:00 am', '11:30 am',
+    '12:00 pm', '12:30 pm', '1:00 pm', '1:30 pm', '2:00 pm', '2:30 pm', '3:00 pm', '3:30 pm',
+    '4:00 pm', '4:30 pm', '5:00 pm', '5:30 pm', '6:00 pm', '6:30 pm', '7:00 pm', '7:30 pm',
+    '8:00 pm', '8:30 pm', '9:00 pm'
   ];
+ 
 
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
@@ -158,8 +165,8 @@ const Survey = () => {
         setTimeout(() => {
           clearInterval(interval);
           //setSemester(option);
-          //const recommendedCourses = Object.values(courses).slice(0, 4);
-          //setSelectedCourses(recommendedCourses);
+          const recommendedCourses = Object.values(courses).slice(0, 4);
+          setSelectedCourses(recommendedCourses);
           addMessage("bot", "Here are your recommended courses for the semester.");
         }, 10000);
 
@@ -200,9 +207,22 @@ const Survey = () => {
   const totalCredits = selectedCourses.reduce((sum, course) => sum + course.credits, 0);
 
   const getCourseForCell = (day, time) => {
-    return selectedCourses.find(course =>
-      course.days.includes(day) && course.time === time
-    );
+    const timeToNumber = (str) => {
+      const [hour, minPart] = str.split(':');
+      const minute = parseInt(minPart);
+      let hourNum = parseInt(hour);
+      if (str.includes('pm') && hourNum !== 12) hourNum += 12;
+      if (str.includes('am') && hourNum === 12) hourNum = 0;
+      return hourNum + minute / 60;
+    };
+  
+    return selectedCourses.find(course => {
+      if (!course.days.includes(day)) return false;
+      const courseStart = timeToNumber(course.time);
+      const courseEnd = timeToNumber(course.endTime);
+      const slotTime = timeToNumber(time);
+      return slotTime >= courseStart && slotTime < courseEnd;
+    });
   };
 
   return (
