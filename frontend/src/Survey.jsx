@@ -238,6 +238,7 @@ const Survey = () => {
   return (
     <div className="schedule-builder-container">
       <Header />
+      <div className="calendarGrid">
       <Calendar
         semester={semester}
         timeSlots={timeSlots}
@@ -245,6 +246,7 @@ const Survey = () => {
         selectedCourses={selectedCourses}
         getCourseForCell={getCourseForCell}
       />
+      </div>
       <div className="right-panel">
         <ChatInterface
           messages={messages}
