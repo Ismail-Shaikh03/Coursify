@@ -87,13 +87,10 @@ body {
 
 /* Calendar Section */
 .schedule-grid {
-  grid-column: 1;
-  overflow: auto;
-  padding: 2rem;
-  background-color: white;
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.03);
-  position: relative;
-  height: calc(100vh - 60px);
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  height: 100%;
 }
 
 .semester-header {
@@ -143,6 +140,19 @@ body {
   z-index: 10;
   background-color: var(--primary-red);
 }
+.calendarGrid {
+  height: calc(100vh - 130px); /* Adjust based on your header height */
+  overflow-y: auto;
+  padding-bottom: 0; /* Remove bottom padding */
+  margin-bottom: 0;
+}
+
+/* Shrink each time slot row to fit more */
+.calendarGrid td {
+  height: 24px; /* or 22px if you need more compact */
+  padding: 0;
+  font-size: 0.75rem;
+}
 
 .calendar th {
   background-color: var(--primary-red);
@@ -166,7 +176,7 @@ body {
 
 .calendar td {
   border: 1px solid var(--neutral-mid);
-  height: 60px;
+  height: 30px;
   vertical-align: top;
   position: relative;
   background-color: white;
@@ -476,11 +486,9 @@ body {
   }
   
   .schedule-grid {
-    grid-column: 1;
-    grid-row: 1;
-    height: auto;
-    min-height: 600px;
-    padding: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    overflow-y: hidden;
   }
   
   .coursify-header {
