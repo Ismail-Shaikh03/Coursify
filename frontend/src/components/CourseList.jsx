@@ -9,7 +9,7 @@ const CourseList = ({ selectedCourses, removeCourse, totalCredits }) => {
           {selectedCourses.map((course, index) => (
             <div key={index} className="course-item">
               <span className="course-item-code">{course.code}</span>
-              <span className="course-item-credits">{course.credits.toFixed(2)} cr</span>
+              <span className="course-item-credits">{course.credits} cr</span>
               <button 
                 className="remove-btn"
                 onClick={() => removeCourse(course.code)}
@@ -21,7 +21,7 @@ const CourseList = ({ selectedCourses, removeCourse, totalCredits }) => {
           <div className="credits-total">
             <span>Total Credits:</span>
             <span className={totalCredits < 12 || totalCredits > 18 ? "warning" : ""}>
-              {totalCredits.toFixed(2)} / 18.00
+              {totalCredits} / 18
             </span>
           </div>
         </div>

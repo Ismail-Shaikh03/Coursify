@@ -40,7 +40,6 @@ const Calendar = ({ semester, timeSlots, daysOfWeek, getCourseForCell }) => {
                 if (rendered[key]) return null;
 
                 const course = getCourseForCell(day, time);
-
                 if (course && !rendered[`${day}-${course.time}`]) {
                   const duration = course.duration || 1;
                   const span = getSlotCount(course.time, course.endTime, timeSlots);
@@ -56,7 +55,6 @@ const Calendar = ({ semester, timeSlots, daysOfWeek, getCourseForCell }) => {
                       <div className={`course-block ${course.color}`}>
                         <span className="course-code">{course.code}</span>
                         <span className="course-name">{course.name}</span>
-                        <span className="course-location">{course.location}</span>
                       </div>
                     </td>
                   );

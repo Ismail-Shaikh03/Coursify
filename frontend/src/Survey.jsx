@@ -24,22 +24,19 @@ const Survey = () => {
     time: "",
     semester: ""
   });
+  
 
-  const handleJSON = (json) => {
-    if (json.code === 0) {
-      console.log(json);
-    }
-  };
-
-  const handleSubmit = (data, address) => {
+  const handleSubmit = async (data, address) => {
     const serializedBody = JSON.stringify(data);
-    fetch(address, {
+    const result = await fetch(address, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: serializedBody,
     })
       .then(response => response.ok && response.json())
-      .then(json => handleJSON(json));
+      .then(json => {return json});
+
+      return result;
   };
 
   const [selectedCourses, setSelectedCourses] = useState([]);
@@ -125,7 +122,7 @@ const Survey = () => {
         allData.current.time = option;
         setTimeout(() => {
           addMessage('bot', "What's your major?", [
-            "Computer Science", "Information Technology", "Business", "Engineering", "Other"
+            "Computer Science", "Financial Tech","Applied Math", "Other"
           ]);
         }, 500);
       } else if (lastBotMessage.text.includes('major')) {
@@ -144,33 +141,45 @@ const Survey = () => {
         }, 500);
       } else if (lastBotMessage.text.includes('semester')) {
         allData.current.semester = option;
-        let dots = "";
         addMessage("bot", "Please wait while I retrieve the information for you");
+        (() => {
+          let dots = "";
+          const interval = setInterval(() => {
+            dots = dots.length < 3 ? dots + "." : "";
+            setMessages((prev) => {
+              const updated = [...prev];
+              const last = updated[updated.length - 1];
+              if (last?.text.startsWith("Please wait")) {
+                updated[updated.length - 1] = {
+                  ...last,
+                  text: "Please wait while I retrieve the information for you" + dots,
+                };
+              }
+              return updated;
+            });
+          }, 500);
 
-        const interval = setInterval(() => {
-          dots = dots.length < 3 ? dots + "." : "";
-          setMessages((prev) => {
-            const updated = [...prev];
-            const last = updated[updated.length - 1];
-            if (last?.text.startsWith("Please wait")) {
-              updated[updated.length - 1] = {
-                ...last,
-                text: "Please wait while I retrieve the information for you" + dots,
-              };
+          (async () => {
+            try {
+              const json = await handleSubmit(allData, import.meta.env.VITE_CHAT);
+              clearInterval(interval);
+
+              const courseObjects = json;
+              if (!courseObjects) throw new Error("Invalid course data");
+
+              const recommendedCourses = Object.values(courseObjects);
+              setSelectedCourses(recommendedCourses);
+              addMessage("bot", "Here are your recommended courses for the semester. If a course isn't showing up on the grid, that is because it was unable to calculate a proper time for that specific course.");
+            } catch (err) {
+              clearInterval(interval);
+              console.error("Submission failed:", err);
+              addMessage("bot", "Something went wrong while retrieving your courses.");
             }
-            return updated;
-          });
-        }, 500);
+          })();
+        })();
 
-        setTimeout(() => {
-          clearInterval(interval);
-          //setSemester(option);
-          const recommendedCourses = Object.values(courses).slice(0, 4);
-          setSelectedCourses(recommendedCourses);
-          addMessage("bot", "Here are your recommended courses for the semester.");
-        }, 10000);
 
-        handleSubmit(allData, import.meta.env.VITE_SEND_RESPONSE);
+        
       }
     }
 
@@ -211,11 +220,12 @@ const Survey = () => {
       const [hour, minPart] = str.split(':');
       const minute = parseInt(minPart);
       let hourNum = parseInt(hour);
-      if (str.includes('pm') && hourNum !== 12) hourNum += 12;
-      if (str.includes('am') && hourNum === 12) hourNum = 0;
+      if (str.toLowerCase().includes('pm') && hourNum !== 12) hourNum += 12;
+      if (str.toLowerCase().includes('am') && hourNum === 12) hourNum = 0;
       return hourNum + minute / 60;
     };
-  
+    
+    //console.log(selectedCourses);
     return selectedCourses.find(course => {
       if (!course.days.includes(day)) return false;
       const courseStart = timeToNumber(course.time);
