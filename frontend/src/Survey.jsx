@@ -97,10 +97,10 @@ const Survey = () => {
   };
 
   const timeSlots = [
-    '8:30 am', '9:00 am', '9:30 am', '10:00 am', '10:30 am', '11:00 am', '11:30 am',
-    '12:00 pm', '12:30 pm', '1:00 pm', '1:30 pm', '2:00 pm', '2:30 pm', '3:00 pm', '3:30 pm',
-    '4:00 pm', '4:30 pm', '5:00 pm', '5:30 pm', '6:00 pm', '6:30 pm', '7:00 pm', '7:30 pm',
-    '8:00 pm', '8:30 pm', '9:00 pm'
+    '8:30 am','9:00 am','9:30 am', '9:50 am','10:00 am','10:20 am', '10:30 am','10:50 am', '11:00 am','11:20 am', '11:30 am',
+    '11:50 am','12:00 pm', '12:30 pm', '12:50 pm','1:00 pm','1:20 pm', '1:30 pm','1:45 pm','1:50 pm', '2:00 pm','2:20 pm', '2:30 pm','2:50 pm', '3:00 pm','3:20 pm', '3:30 pm','3:50 pm',
+    '4:00 pm','4:20 pm', '4:30 pm','4:50 pm', '5:00 pm','5:20 pm' ,'5:30 pm', '5:50 pm','6:00 pm','6:20 pm', '6:30 pm', '6:50 pm','7:00 pm','7:20 pm', '7:30 pm','7:50 pm',
+    '8:00 pm','8:20 pm', '8:30 pm','8:50 pm', '9:00 pm'
   ];
  
 
@@ -122,7 +122,7 @@ const Survey = () => {
         allData.current.time = option;
         setTimeout(() => {
           addMessage('bot', "What's your major?", [
-            "Computer Science", "Financial Tech","Applied Math", "Other"
+            "Computer Science", "Financial Tech","Applied Math"
           ]);
         }, 500);
       } else if (lastBotMessage.text.includes('major')) {
@@ -166,9 +166,18 @@ const Survey = () => {
 
               const courseObjects = json;
               if (!courseObjects) throw new Error("Invalid course data");
+              const normalizedCourses = Object.values(courseObjects).map(course => ({
+                ...course,
+                time: course.time.trim().toLowerCase(),
+                endTime: course.endTime.trim().toLowerCase(),
+                  
+              }));
+              setSelectedCourses(normalizedCourses);
 
-              const recommendedCourses = Object.values(courseObjects);
-              setSelectedCourses(recommendedCourses);
+
+              //console.log("From backend:", courseObjects);
+              //const recommendedCourses = Object.values(courseObjects);
+              //setSelectedCourses(recommendedCourses);
               addMessage("bot", "Here are your recommended courses for the semester. If a course isn't showing up on the grid, that is because it was unable to calculate a proper time for that specific course.");
             } catch (err) {
               clearInterval(interval);

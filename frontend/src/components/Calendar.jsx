@@ -2,8 +2,16 @@ import React from 'react';
 
 // Helper to get 30-minute slot difference
 const getSlotCount = (start, end, slots) => {
-  const startIdx = slots.indexOf(start);
-  const endIdx = slots.indexOf(end);
+  const startIdx = slots.findIndex(t => t.toLowerCase() === start.toLowerCase());
+  const endIdx = slots.findIndex(t => t.toLowerCase() === end.toLowerCase());
+  //console.log("start")
+
+  //console.log(startIdx)
+  //console.log(endIdx)
+  //console.log(endIdx > startIdx);
+  //console.log(endIdx - startIdx)
+  //console.log("End")
+
   return endIdx > startIdx ? endIdx - startIdx : 1;
 };
 
@@ -34,35 +42,38 @@ const Calendar = ({ semester, timeSlots, daysOfWeek, getCourseForCell }) => {
             <tr key={time}>
               <td className="time-column">{time}</td>
               {daysOfWeek.map(day => {
-                const key = `${day}-${time}`;
+              const cellKey = `${day}-${time}`;
+              
+              if (rendered[cellKey]) return null;
 
-                // Skip if this time has already been rendered as part of a previous rowspan
-                if (rendered[key]) return null;
+              const course = getCourseForCell(day, time);
 
-                const course = getCourseForCell(day, time);
-                if (course && !rendered[`${day}-${course.time}`]) {
-                  const duration = course.duration || 1;
-                  const span = getSlotCount(course.time, course.endTime, timeSlots);
+              if (course) {
+                console.log(course)
+                const span = getSlotCount(course.time, course.endTime, timeSlots);
+                //console.log(span)
+                const startIdx = timeSlots.findIndex(t => t.toLowerCase() === course.time.toLowerCase());
 
-                  // Mark subsequent time slots as rendered
-                  const startIdx = timeSlots.indexOf(course.time);
-                  for (let i = 1; i < span; i++) {
-                    rendered[`${day}-${timeSlots[startIdx + i]}`] = true;
-                  }
 
-                  return (
-                    <td key={`${day}-${time}`} rowSpan={span}>
-                      <div className={`course-block ${course.color}`}>
-                        <span className="course-code">{course.code}</span>
-                        <span className="course-name">{course.name}</span>
-                      </div>
-                    </td>
-                  );
+                for (let i = 0; i < span; i++) {
+                  const spannedKey = `${day}-${timeSlots[startIdx + i]}`;
+                  rendered[spannedKey] = true;
                 }
 
-                // Empty cell
-                return <td key={`${day}-${time}`}></td>;
-              })}
+                return (
+                  <td key={cellKey} rowSpan={span}>
+                    <div className={`course-block ${course.color}`}>
+                      <span className="course-code">{course.code}</span>
+                      <span className="course-name">{course.name}</span>
+                      <span className="course-name">{course.location}</span>
+
+                    </div>
+                  </td>
+                );
+              }
+
+              return <td key={cellKey}></td>;
+            })}
             </tr>
           ))}
         </tbody>
