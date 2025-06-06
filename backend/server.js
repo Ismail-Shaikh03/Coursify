@@ -44,7 +44,7 @@ const getAllCourses = (c) => {
             AND C.Course = ? 
             AND NOT (Times = ?) AND P.Instructor IN (SELECT Instructor FROM Courses WHERE Course = ?) 
             ORDER BY P.rating DESC 
-            LIMIT 9
+            LIMIT 17
         `;
 
         db.query(mainSql, [c,"TBA", c], (err, results) => {
@@ -59,7 +59,7 @@ const getAllCourses = (c) => {
 
             const fallbackSql = `
                 SELECT * FROM Courses C Where C.Course = ? AND NOT (Times = ?)
-                LIMIT 9
+                LIMIT 17
             `;
 
             db.query(fallbackSql,[c,"TBA"] ,(err, results) => {
@@ -262,10 +262,13 @@ function blankEntry(dept = "N/A") {
     code: dept,
     crn: "N/A",
     time: "N/A",
-    days: "N/A",
+    days: [],
     difficulty_rating: "N/A",
     overall_rating: "N/A",
-    credits:"N/A"
+    credits:"N/A",
+    endTime:"N/A",
+    location:"N/A",
+    tag:"N/A"
 
   };
 }
@@ -298,11 +301,13 @@ function buildScheduleWithRetry(cC, courseResults, allowHonors = false) {
         professor: c.Instructor || "N/A",
         code: dept,
         crn: c.CRN,
-        time: timeStr,
+        time: timeStr.toLowerCase(),
         days: dayStr,
         difficulty_rating: c.difficulty || "N/A",
         overall_rating: c.rating || "N/A",
-        credits: c.Credits || 0
+        credits: c.Credits || 0,
+        location: c.Location || "N/A",
+        color:dept.replace(/[^a-zA-Z ]/g, '')
       };
 
       const result = tryBuild(index + 1, current);
@@ -391,14 +396,16 @@ for(const obj in result){
     }
     result[obj].days = builder;
 
-    const time = result[obj].time.split("-")[0].trim().substring(0,8);
-    const endTime = result[obj].time.split("-")[1].trim().substring(0,8);
+    const [startRaw, endRaw] = result[obj].time.split("-");
+    const time = startRaw.trim().toLowerCase();
+    const endTime = endRaw.trim().toLowerCase();
+
     result[obj].time = time;
     result[obj].endTime = endTime;
     
 }
 
-
+console.log(result)
 return res.json(result)
 
         
