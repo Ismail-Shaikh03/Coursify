@@ -234,6 +234,40 @@ body {
   background-color: rgba(82, 37, 70, 0.15);
   border-left: 4px solid var(--primary-darker);
 }
+.course-block.cs {
+  background-color: rgba(55, 202, 247, 0.15);
+  border-left: 4px solid var(--primary-red);
+}
+
+.course-block.math {
+  background-color: rgba(35, 94, 161, 0.15);
+  border-left: 4px solid var(--primary-dark);
+}
+
+.course-block.engl {
+  background-color: rgba(233, 118, 83, 0.15);
+  border-left: 4px solid var(--primary-darker);
+}
+.course-block.fyssem {
+  background-color: rgba(95, 233, 83, 0.15);
+  border-left: 4px solid var(--primary-darker);
+}
+.course-block.phys {
+  background-color: rgba(233, 231, 83, 0.15);
+  border-left: 4px solid var(--primary-darker);
+}
+.course-block.physa {
+  background-color: rgba(233, 231, 83, 0.15);
+  border-left: 4px solid var(--primary-darker);
+}
+.course-block.mgmt {
+  background-color: rgba(233, 126, 83, 0.15);
+  border-left: 4px solid var(--primary-darker);
+}
+.course-block.biol {
+  background-color: rgba(113, 233, 83, 0.15);
+  border-left: 4px solid var(--primary-darker);
+}
 
 .course-code {
   font-weight: 700;
