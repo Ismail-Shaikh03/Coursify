@@ -307,7 +307,7 @@ function buildScheduleWithRetry(cC, courseResults, allowHonors = false) {
         overall_rating: c.rating || "N/A",
         credits: c.Credits || 0,
         location: c.Location || "N/A",
-        color:dept.replace(/[^a-zA-Z ]/g, '')
+        color:dept.replace(/[^a-zA-Z ]/g, '').toLowerCase()
       };
 
       const result = tryBuild(index + 1, current);
