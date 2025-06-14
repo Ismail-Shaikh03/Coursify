@@ -1,0 +1,62 @@
+First Year
+Fall Semester Credits
+ACCT 115 Fundamentals of Financial Accounting 3
+CS 100 Roadmap to Computing 3
+ENGL 101 English Composition: Introduction to Academic Writing 3
+MATH 135 Calculus for Business 3
+MGMT 190 Introduction to Business 3
+FYS SEM First-Year Student Seminar 0
+Term Credits 15
+Spring Semester
+MGMT 116 Quantitative Analysis Appl Bus 4
+ECON 266 Macroeconomics 3
+MGMT 290 Business Law I 3
+CS 113 Introduction to Computer Science I 3
+ENGL 102 English Composition: Introduction to Writing for Research 3
+Term Credits 16
+Second Year
+Fall Semester
+MIS 245 Introduction to Management Information Systems 3
+ECON 265 Microeconomics 3
+MGMT 216 Business Data Analytics 3
+History and Humanities GER 200 level 3
+Natural Science GER 3
+Term Credits 15
+Spring Semester
+FIN 315 Fundamentals of Corporate Finance 3
+MRKT 330 Principles of Marketing 3
+OM 375 Business Operations Management and Analytics 3
+CS 114 Introduction to Computer Science II 3
+Natural Science GER 4
+Term Credits 16
+Third Year
+Fall Semester
+FIN 218 Financial Markets and Institutions 3
+HRM 301 Organizational Behavior 3
+FIN 310 Data-Driven Financial Modeling 3
+ENTR 320 Financing New Venture 3
+MGMT 399 Career Planning 1
+Free Elective 3
+Term Credits 16
+Spring Semester
+MIS 385 Database Systems for Managers 3
+FIN 320 Fin Data Analytics 3
+FIN 306 Blockchain Technology for Business 3
+SDET 373 Web App Development for Mobile 3
+History and Humanities GER 300+ level 3
+Term Credits 15
+Fourth Year
+Fall Semester
+FIN 430 Options and Futures Markets 3
+FIN 417 Investments Management 3
+FIN 410 Data Mining & Machine Learning 3
+History and Humanities GER 300+ level 3
+Free Elective 3
+Term Credits 15
+Spring Semester
+MGMT 480 Managing Technology and Innovation 3
+MGMT 416 Artificial Intelligence for Business Decisions 3
+Humanities and Social Science Senior Seminar GER 3
+Free Elective 3
+Term Credits 12
+Total Credits 120

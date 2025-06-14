@@ -175,3 +175,11 @@ cython_debug/
 
 /frontend/node_modules
 /backend/node_modules
+
+#coursify scripts
+/coursifyScripts/courseExtractor/.venv/
+/coursifyScripts/courseExtractor/chromedrive*/
+/coursifyScripts/ScheduleExtractor/.idea/
+/coursifyScripts/ScheduleExtractor/out/
+/coursifyScripts/ScheduleExtractor/*.jar
+

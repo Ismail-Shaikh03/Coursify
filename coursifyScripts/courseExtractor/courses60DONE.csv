@@ -1,0 +1,822 @@
+Term,Course,Title,Section,CRN,Days,Times,Location,Status,Max,Now,Instructor,Delivery Mode,Credits,Info,Comments
+
+202590,OM375,BUSINESS OP MGMT & ANALYTICS,001,95156,TR,11:30 AM - 12:50 PM,CULM LECT 1,Open,43,42,"Rudna, Olena",Face-to-Face,3,Book,Students must bring their own device for this section.
+202590,OM375,BUSINESS OP MGMT & ANALYTICS,101,95157,T,6:00 PM - 8:50 PM,KUPF 203,Open,43,13,"Rudna, Olena",Face-to-Face,3,Book,Students must bring their own device for this section.
+202590,OM375,BUSINESS OP MGMT & ANALYTICS,451,95158,,TBA,,Closed,30,30,"Bizel, Gulhan",Online Newark,3,Book,Online Course
+202590,OPSE301,OPTICAL SCI & ENGR OPTICS,101,95159,T,6:00 PM - 8:50 PM,FMH 403B,Closed,15,15,"Balasingham, Brandan",Face-to-Face,3,Book,
+202590,OPSE310,VIRTUAL INSTRUMENTATION,101,95160,R,6:00 PM - 8:50 PM,FMH 403B,Open,15,7,"Balasingham, Brandan",Face-to-Face,3,Book,
+202590,PE115,STRNGTH TRNING & CONDING,003,95971,TR,8:30 AM - 9:50 AM,WEC FITCENTR,Open,15,6,,Face-to-Face,1,Book,Class meets first half of the semester.
+202590,PE115,STRNGTH TRNING & CONDING,005,95972,TR,11:30 AM - 12:50 PM,WEC FITCENTR,Open,15,10,,Face-to-Face,1,Book,Class meets first half of the semester.
+202590,PE115,STRNGTH TRNING & CONDING,007,95162,F,8:30 AM - 9:50 AM,WEC FITCENTR,Open,15,13,,Face-to-Face,1,Book,
+202590,PE115,STRNGTH TRNING & CONDING,009,95163,W,11:30 AM - 12:50 PM,WEC FITCENTR,Open,15,14,,Face-to-Face,1,Book,
+202590,PE115,STRNGTH TRNING & CONDING,001,95161,W,1:00 PM - 2:20 PM,WEC FITCENTR,Closed,15,15,,Face-to-Face,1,Book,
+202590,PE117,JOGGING,001,95973,TR,1:00 PM - 2:20 PM,WEC TRACK,Closed,15,15,"Callahan, Brian",Face-to-Face,1,Book,Class meets first half of the semester.
+202590,PE118,WALKING,001,95986,TR,1:00 PM - 2:20 PM,DHRH FIT,Closed,15,15,"Callahan, Brian",Face-to-Face,1,Book,Class meets last half of the semester.
+202590,PE129,INDIVIDUALIZED FITNESS,003,95974,MW,10:00 AM - 11:20 AM,WEC FITCENTR,Open,15,5,,Face-to-Face,1,Book,Class meets first half of the semester.
+202590,PE129,INDIVIDUALIZED FITNESS,005,95975,TR,10:00 AM - 11:20 AM,WEC FITCENTR,Open,15,1,,Face-to-Face,1,Book,Class meets first half of the semester.
+202590,PE129,INDIVIDUALIZED FITNESS,007,95976,TR,1:00 PM - 2:20 PM,WEC FITCENTR,Open,15,5,,Face-to-Face,1,Book,Class meets first half of the semester.
+202590,PE129,INDIVIDUALIZED FITNESS,009,95977,TR,2:30 PM - 3:50 PM,WEC FITCENTR,Open,15,6,,Face-to-Face,1,Book,Class meets first half of the semester.
+202590,PE129,INDIVIDUALIZED FITNESS,101,95165,M,6:00 PM - 7:20 PM,WEC FITCENTR,Open,15,3,,Face-to-Face,1,Book,
+202590,PE129,INDIVIDUALIZED FITNESS,103,95166,W,6:00 PM - 7:20 PM,WEC FITCENTR,Open,15,4,,Face-to-Face,1,Book,
+202590,PE129,INDIVIDUALIZED FITNESS,001,95164,M,4:00 PM - 5:20 PM,WEC FITCENTR,Closed,20,20,,Face-to-Face,1,Book,
+202590,PE133,SWIM FOR HEALTH,001,95167,T,10:00 AM - 11:20 AM,WEC POOL,Open,12,7,,Face-to-Face,1,Book,
+202590,PE133,SWIM FOR HEALTH,003,95168,T,11:30 AM - 12:50 PM,WEC POOL,Open,12,9,,Face-to-Face,1,Book,
+202590,PE135,BEGINNING SWIMMING,001,95169,R,10:00 AM - 11:20 AM,WEC POOL,Closed,10,10,,Face-to-Face,1,Book,
+202590,PE136,INTRO TO KARATE,101,95170,T,7:00 PM - 8:20 PM,WEC GRPEXER,Closed,15,15,,Face-to-Face,1,Book,
+202590,PE136,INTRO TO KARATE,103,95171,R,7:00 PM - 8:20 PM,WEC GRPEXER,Closed,15,15,,Face-to-Face,1,Book,
+202590,PE139,INDIVIDUALIZED FITNESS II,003,95987,MW,10:00 AM - 11:20 AM,WEC FITCENTR,Open,15,5,,Face-to-Face,1,Book,Class meets last half of the semester.
+202590,PE139,INDIVIDUALIZED FITNESS II,005,95988,TR,10:00 AM - 11:20 AM,WEC FITCENTR,Open,20,2,,Face-to-Face,1,Book,Class meets last half of the semester.
+202590,PE139,INDIVIDUALIZED FITNESS II,007,95989,TR,1:00 PM - 2:20 PM,WEC FITCENTR,Open,20,2,,Face-to-Face,1,Book,Class meets last half of the semester.
+202590,PE139,INDIVIDUALIZED FITNESS II,009,95990,TR,2:30 PM - 3:50 PM,WEC FITCENTR,Open,15,1,,Face-to-Face,1,Book,Class meets last half of the semester.
+202590,PE139,INDIVIDUALIZED FITNESS II,001,95172,,TBA,WEC FITCENTR,Closed,0,0,,Face-to-Face,1,Book,Department permission required
+202590,PE140,CIRCUIT TRAINING,001,95991,TR,8:30 AM - 9:50 AM,WEC FITCENTR,Open,15,0,,Face-to-Face,1,Book,Class meets last half of the semester
+202590,PE140,CIRCUIT TRAINING,003,95173,F,10:00 AM - 11:20 AM,WEC FITCENTR,Open,15,5,,Face-to-Face,1,Book,
+202590,PE140,CIRCUIT TRAINING,005,95992,TR,11:30 AM - 12:50 PM,WEC FITCENTR,Open,15,1,,Face-to-Face,1,Book,Class meets last half of the semester.
+202590,PE141,INTRODUCTION TO DANCE,001,95174,M,11:30 AM - 12:50 PM,WEC GRPEXER,Open,20,1,,Face-to-Face,1,Book,
+202590,PE145,AIR FORCE PHYSICAL TRAINING I,001,95175,T,7:00 AM - 8:00 AM,WEC TRACK,Open,60,7,,Face-to-Face,1,Book,
+202590,PE150,BEGINNING YOGA,001,95176,F,10:00 AM - 11:20 AM,WEC GRPEXER,Open,20,8,,Face-to-Face,1,Book,
+202590,PE150,BEGINNING YOGA,003,95177,T,10:00 AM - 11:20 AM,WEC GRPEXER,Open,20,13,,Face-to-Face,1,Book,
+202590,PE150,BEGINNING YOGA,005,95178,R,10:00 AM - 11:20 AM,WEC GRPEXER,Open,20,17,,Face-to-Face,1,Book,
+202590,PE150,BEGINNING YOGA,101,95179,M,7:00 PM - 8:20 PM,WEC GRPEXER,Open,20,4,,Face-to-Face,1,Book,
+202590,PE150,BEGINNING YOGA,103,95180,W,6:00 PM - 7:20 PM,WEC GRPEXER,Open,20,9,,Face-to-Face,1,Book,
+202590,PE150,BEGINNING YOGA,105,95181,W,7:30 PM - 8:50 PM,WEC GRPEXER,Open,20,9,,Face-to-Face,1,Book,
+202590,PE171,LATIN DANCE,001,95182,T,1:00 PM - 2:20 PM,WEC GRPEXER,Open,40,9,,Face-to-Face,1,Book,
+202590,PE171,LATIN DANCE,003,95183,T,2:30 PM - 3:50 PM,WEC GRPEXER,Open,40,8,,Face-to-Face,1,Book,
+202590,PE180,ZUMBA FITNESS,001,95184,M,10:00 AM - 11:20 AM,WEC GRPEXER,Open,40,1,,Face-to-Face,1,Book,
+202590,PE180,ZUMBA FITNESS,003,95185,M,4:30 PM - 5:50 PM,WEC GRPEXER,Open,40,5,,Face-to-Face,1,Book,
+202590,PE180,ZUMBA FITNESS,005,95186,W,10:00 AM - 11:20 AM,WEC GRPEXER,Open,40,4,,Face-to-Face,1,Book,
+202590,PE211,INTRO BOWLING & ARCHERY,101,95187,R,7:30 PM - 8:50 PM,CTR BOWL,Open,20,18,,Face-to-Face,1,Book,Bowling Only Section
+202590,PE211,INTRO BOWLING & ARCHERY,103,96346,R,6:00 PM - 7:20 PM,CTR BOWL,Closed,20,20,,Face-to-Face,1,Book,Bowling Only Section
+202590,PE242,INTRODUCTION TO RACQUETBALL,101,95190,T,6:00 PM - 7:20 PM,WEC RACQ,Open,10,8,,Face-to-Face,1,Book,
+202590,PE242,INTRODUCTION TO RACQUETBALL,001,95188,T,4:30 PM - 5:50 PM,WEC RACQ,Closed,10,10,,Face-to-Face,1,Book,
+202590,PE242,INTRODUCTION TO RACQUETBALL,003,95189,R,4:30 PM - 5:50 PM,WEC RACQ,Closed,10,10,,Face-to-Face,1,Book,
+202590,PE245,AIR FORCE PHYSICAL TRAINING II,001,95191,W,5:50 PM - 6:40 PM,,Closed,0,0,,Face-to-Face,1,Book,
+202590,PHEN590,GRADUATE CO,084,95192,,TBA,,Open,19,0,"Obuskovic, Gordana",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHEN591,GRADUATE CO,084,95193,,TBA,,Open,19,0,"Obuskovic, Gordana",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHEN592,GRADUATE CO,084,95194,,TBA,,Open,19,0,"Obuskovic, Gordana",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHEN593,GRADUATE CO,084,95195,,TBA,,Open,19,0,"Obuskovic, Gordana",Face-to-Face,0,Book,See department for permission to enroll.
+202590,PHEN601,PRINC OF PHARMCTCL ENGR,101,95196,T,6:00 PM - 8:50 PM,FMH 409,Open,30,6,"Bernhardt, Marc",Face-to-Face,3,Book,
+202590,PHEN602,PHARMACEUTICAL FACILITY DESIGN,101,95197,F,6:00 PM - 8:50 PM,TIER 108,Open,30,5,"Lechich, Robert",Face-to-Face,3,Book,
+202590,PHEN603,PHARM UNIT OPER:LIQ&DISP SYS,101,95198,M,6:00 PM - 8:50 PM,FMH 409,Open,30,1,"Armenante, Piero",Face-to-Face,3,Book,
+202590,PHEN700B,MASTER'S PROJECT,090,95199,,TBA,,Open,19,0,"Ghalei, Behnam",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,070,95200,,TBA,,Open,19,0,"Collins, George",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,071,95201,,TBA,,Open,19,0,"Sirkar, Kamalesh",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,080,95202,,TBA,,Open,19,0,"Armenante, Piero",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,088,95203,,TBA,,Open,19,0,"Basuray, Sagnik",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,090,95204,,TBA,,Open,19,0,"Ghalei, Behnam",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,093,95205,,TBA,,Open,19,0,"McEnnis, Kathleen",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,103,95206,,TBA,,Open,19,0,"Tuchinda, Nutth",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,111,95207,,TBA,,Open,19,0,"Simon, Laurent",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,116,95208,,TBA,,Open,19,0,"Gogos, Costas",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,119,95209,,TBA,,Open,19,0,"Wang, Xianqin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,217,95210,,TBA,,Open,19,0,"Guvendiren, Murat",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,445,95211,,TBA,,Open,19,0,"Dave, Rajesh",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,486,95212,,TBA,,Open,19,0,"Khusid, Boris",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701B,MASTER'S THESIS,487,95213,,TBA,,Open,19,0,"Dreyzin, Edward",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN701C,MASTER'S THESIS,070,95214,,TBA,,Open,19,0,"Collins, George",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHEN701C,MASTER'S THESIS,080,95215,,TBA,,Open,19,0,"Armenante, Piero",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHEN701C,MASTER'S THESIS,090,95216,,TBA,,Open,19,0,"Ghalei, Behnam",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHEN701C,MASTER'S THESIS,093,95217,,TBA,,Open,19,0,"McEnnis, Kathleen",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHEN701C,MASTER'S THESIS,103,95218,,TBA,,Open,19,0,"Tuchinda, Nutth",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHEN701C,MASTER'S THESIS,111,95219,,TBA,,Open,19,0,"Simon, Laurent",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHEN701C,MASTER'S THESIS,217,95220,,TBA,,Open,19,0,"Guvendiren, Murat",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHEN701C,MASTER'S THESIS,445,95221,,TBA,,Open,19,0,"Dave, Rajesh",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHEN701C,MASTER'S THESIS,486,95222,,TBA,,Open,19,0,"Khusid, Boris",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHEN725,INDEPENDENT STUDY,091,95223,,TBA,,Open,19,0,"Xu, Xiaoyang",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN725,INDEPENDENT STUDY,093,95224,,TBA,,Open,19,0,"McEnnis, Kathleen",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN725,INDEPENDENT STUDY,103,95225,,TBA,,Open,19,0,"Tuchinda, Nutth",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHEN725,INDEPENDENT STUDY,217,95226,,TBA,,Open,19,0,"Guvendiren, Murat",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHIL334,ENGINEERING ETHICS,003,95228,MW,8:30 AM - 9:50 AM,FMH 310,Open,28,7,"Estrada, Daniel",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,007,95230,TR,4:00 PM - 5:20 PM,CKB 222,Open,28,25,"Edel, Gareth",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,015,95234,MW,11:30 AM - 12:50 PM,FMH 309,Open,28,12,"Anis, Manail",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,019,95236,MW,1:00 PM - 2:20 PM,FMH 313,Open,28,13,"Anis, Manail",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,023,95238,TF,10:00 AM - 11:20 AM,FMH 307,Open,28,11,"Goncalves Leonel da Silva, Renan",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,101,95239,R,6:00 PM - 8:50 PM,FMH 307,Open,28,4,"Heap, Peter",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,001,95227,MW,11:30 AM - 12:50 PM,FMH 307,Closed,28,28,"Estrada, Daniel",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,005,95229,TF,1:00 PM - 2:20 PM,FMH 310,Closed,28,28,"Burnside, Andrew",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,009,95231,MW,1:00 PM - 2:20 PM,FMH 307,Closed,28,28,"Burnside, Andrew",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,011,95232,MW,11:30 AM - 12:50 PM,FMH 313,Closed,28,28,"Burnside, Andrew",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,013,95233,TF,2:30 PM - 3:50 PM,CKB 215,Closed,28,28,"Burnside, Andrew",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,017,95235,MW,10:00 AM - 11:20 AM,FMH 309,Closed,28,28,"Anis, Manail",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,021,95237,TR,11:30 AM - 12:50 PM,FMH 310,Closed,28,28,"Leli, Tyler",Face-to-Face,3,Book,
+202590,PHIL334,ENGINEERING ETHICS,451,95240,,TBA,,Closed,30,29,"Estrada, Daniel",Online Newark,3,Book,Online Course
+202590,PHIL334,ENGINEERING ETHICS,453,95241,,TBA,,Closed,30,30,"George, Amber",Online Newark,3,Book,Online Course
+202590,PHIL334,ENGINEERING ETHICS,455,95242,,TBA,,Closed,30,30,"George, Amber",Online Newark,3,Book,Online Course
+202590,PHIL334,ENGINEERING ETHICS,457,95243,,TBA,,Closed,30,30,"George, Amber",Online Newark,3,Book,Online Course
+202590,PHIL334,ENGINEERING ETHICS,H01,95244,TR,10:00 AM - 11:20 AM,FMH 409,Open,26,18,"Holbrook, Britt",Face-to-Face,3,Book,Honors Course
+202590,PHIL337,WORLD RELIGIONS,001,95245,WF,8:30 AM - 9:50 AM,CULM 111,Closed,28,28,"Brooks, Charles",Face-to-Face,3,Book,
+202590,PHIL351,BIOMEDICAL ETHICS,451,95246,,TBA,,Closed,30,30,"Deek, Andrew",Online Newark,3,Book,Online Course
+202590,PHIL351,BIOMEDICAL ETHICS,453,95247,,TBA,,Closed,30,30,"Deek, Andrew",Online Newark,3,Book,Online Course
+202590,PHIL351,BIOMEDICAL ETHICS,H01,95248,TR,11:30 AM - 12:50 PM,CKB 315,Closed,26,26,"Holbrook, Britt",Face-to-Face,3,Book,Honors Section
+202590,PHYS102,GENERAL PHYSICS I,105,95256,W,6:00 PM - 8:50 PM,KUPF 117,Open,38,4,,Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS102,GENERAL PHYSICS I,001,95249,"W
+F","11:30 AM - 12:50 PM
+10:00 AM - 11:20 AM","KUPF 210
+KUPF 207",Closed,23,23,"Kane, Steve",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS102,GENERAL PHYSICS I,003,95250,"M
+W","11:30 AM - 12:50 PM
+11:30 AM - 12:50 PM","KUPF 207
+KUPF 210",Closed,23,23,"Kane, Steve",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS102,GENERAL PHYSICS I,005,95251,"T
+R","1:00 PM - 2:20 PM
+11:30 AM - 12:50 PM","KUPF 210
+KUPF 207",Closed,23,23,"Ahn, Keun Hyuk",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS102,GENERAL PHYSICS I,007,95252,"T
+R","1:00 PM - 2:20 PM
+4:00 PM - 5:20 PM","KUPF 210
+KUPF 207",Closed,23,23,"Ahn, Keun Hyuk",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS102,GENERAL PHYSICS I,009,95253,WF,8:30 AM - 9:50 AM,KUPF 207,Closed,23,23,"Kane, Steve",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS102,GENERAL PHYSICS I,101,95254,T,6:00 PM - 8:50 PM,KUPF 207,Closed,38,38,"Stefan, John",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS102,GENERAL PHYSICS I,103,95255,M,6:00 PM - 8:50 PM,KUPF 108,Closed,38,38,"Azizighannad, Samar",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS102A,GENERAL PHYSICS I LAB,001,95257,R,3:15 PM - 5:20 PM,TIER 409,Open,15,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS102A,GENERAL PHYSICS I LAB,103,95264,T,6:00 PM - 7:55 PM,TIER 409,Open,27,26,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS102A,GENERAL PHYSICS I LAB,003,95258,F,9:15 AM - 11:20 AM,TIER 409,Closed,15,15,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS102A,GENERAL PHYSICS I LAB,005,95259,F,1:00 PM - 3:05 PM,TIER 409,Closed,15,15,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS102A,GENERAL PHYSICS I LAB,007,95260,F,3:15 PM - 5:20 PM,TIER 409,Closed,15,15,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS102A,GENERAL PHYSICS I LAB,009,95261,T,3:15 PM - 5:20 PM,TIER 409,Closed,15,15,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS102A,GENERAL PHYSICS I LAB,011,95262,T,10:45 AM - 12:50 PM,TIER 409,Closed,15,15,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS102A,GENERAL PHYSICS I LAB,101,95263,R,6:00 PM - 7:55 PM,TIER 409,Closed,27,27,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS102A,GENERAL PHYSICS I LAB,105,95265,W,6:00 PM - 7:55 PM,TIER 409,Closed,27,27,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS103,GENERAL PHYSICS II,001,95266,"M
+F","10:00 AM - 11:20 AM
+10:00 AM - 11:20 AM","KUPF 108
+CKB 303",Open,40,17,"Opyrchal, Halina",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS103,GENERAL PHYSICS II,003,95267,"W
+F","11:30 AM - 12:50 PM
+10:00 AM - 11:20 AM","KUPF 207
+CKB 303",Open,40,19,"Opyrchal, Halina",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS103,GENERAL PHYSICS II,101,95268,W,6:00 PM - 8:50 PM,KUPF 207,Open,40,20,"Sirenko, Andrei",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS103A,GENERAL PHYSICS II LAB,001,95269,R,8:30 AM - 10:35 AM,TIER 409,Open,29,17,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS103A,GENERAL PHYSICS II LAB,003,95270,T,1:00 PM - 3:05 PM,TIER 409,Open,29,27,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS103A,GENERAL PHYSICS II LAB,101,95271,W,6:00 PM - 7:55 PM,TIER 408,Open,29,4,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111,PHYSICS I,013,95278,"T
+F","8:30 AM - 9:50 AM
+8:30 AM - 9:50 AM","KUPF 210
+KUPF 104",Open,11,10,"Wang, Haimin",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,015,95279,"T
+F","8:30 AM - 9:50 AM
+1:00 PM - 2:20 PM","KUPF 210
+KUPF 108",Open,11,9,"Wang, Haimin",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,017,95280,"W
+F","8:30 AM - 9:50 AM
+8:30 AM - 9:50 AM","KUPF 211
+KUPF 105",Open,11,1,"Zhou, Changshi",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,019,95281,"W
+F","8:30 AM - 9:50 AM
+10:00 AM - 11:20 AM","KUPF 211
+KUPF 105",Open,11,4,"Zhou, Changshi",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,027,95285,"M
+R","10:00 AM - 11:20 AM
+4:00 PM - 5:20 PM","TIER LECT 2
+TIER 113",Open,7,6,"Vataj, Esmeralda",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,037,95290,TF,4:00 PM - 5:20 PM,KUPF 207,Open,11,8,"Zhou, Changshi",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,101,95291,M,6:00 PM - 8:50 PM,CULM LECT 1,Open,33,2,"Chen, Yusui",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,103,95292,W,6:00 PM - 8:50 PM,TIER 105,Open,33,3,"Kuzichev, Ilya",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,105,95293,R,6:00 PM - 8:50 PM,TIER 105,Open,33,11,"Levy, Roland",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,107,95294,T,6:00 PM - 8:50 PM,TIER 113,Open,33,1,"Kuzichev, Ilya",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,001,95272,"M
+W","10:00 AM - 11:20 AM
+1:00 PM - 2:20 PM","KUPF 210
+KUPF 207",Closed,11,11,"Kane, Steve",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,003,95273,"M
+F","10:00 AM - 11:20 AM
+2:30 PM - 3:50 PM","KUPF 210
+KUPF 207",Closed,11,11,"Kane, Steve",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,005,95274,"T
+R","2:30 PM - 3:50 PM
+10:00 AM - 11:20 AM","KUPF 210
+KUPF 207",Closed,11,11,"Dias, Cristiano",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,007,95275,"T
+R","2:30 PM - 3:50 PM
+8:30 AM - 9:50 AM","KUPF 210
+KUPF 108",Closed,11,11,"Dias, Cristiano",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,009,95276,"M
+W","10:00 AM - 11:20 AM
+8:30 AM - 9:50 AM","KUPF 207
+KUPF 210",Closed,11,11,"Hijazi, Hussein",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,011,95277,"M
+W","2:30 PM - 3:50 PM
+8:30 AM - 9:50 AM","KUPF 108
+KUPF 210",Closed,11,11,"Hijazi, Hussein",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,021,95282,"W
+F","1:00 PM - 2:20 PM
+8:30 AM - 9:50 AM","KUPF 210
+KUPF 208",Closed,11,11,"Hijazi, Hussein",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,023,95283,"W
+F","1:00 PM - 2:20 PM
+10:00 AM - 11:20 AM","KUPF 210
+KUPF 208",Closed,11,11,"Hijazi, Hussein",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,025,95284,MW,11:30 AM - 12:50 PM,KUPF 108,Closed,11,11,"Hijazi, Hussein",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,029,95286,"M
+R","10:00 AM - 11:20 AM
+10:00 AM - 11:20 AM","TIER LECT 2
+FMH 207",Closed,7,7,"Vataj, Esmeralda",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,031,95287,"M
+R","2:30 PM - 3:50 PM
+10:00 AM - 11:20 AM","KUPF 210
+KUPF 108",Closed,11,11,"Opyrchal, Jan",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,033,95288,"M
+R","2:30 PM - 3:50 PM
+2:30 PM - 3:50 PM","KUPF 210
+KUPF 103",Closed,11,11,"Opyrchal, Jan",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,035,95289,MR,10:00 AM - 11:20 AM,KUPF 105,Closed,11,11,,Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,H01,95296,"W
+F","10:00 AM - 11:20 AM
+8:30 AM - 9:50 AM","KUPF 210
+KUPF 108",Open,3,1,"Vataj, Esmeralda",Face-to-Face,3,Book,"Honors Course
+Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111,PHYSICS I,H03,95297,"W
+F","10:00 AM - 11:20 AM
+10:00 AM - 11:20 AM","KUPF 210
+KUPF 108",Closed,0,0,"Vataj, Esmeralda",Face-to-Face,3,Book,"Honors Course
+Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS111A,PHYSICS I LAB,011,95303,W,8:30 AM - 10:35 AM,TIER 406,Open,6,5,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,037,95316,W,8:30 AM - 10:35 AM,TIER 407,Open,6,4,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,101,95322,T,6:00 PM - 7:55 PM,TIER 407,Open,27,5,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,103,95323,R,6:00 PM - 7:55 PM,TIER 407,Open,27,4,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,105,95324,W,6:00 PM - 7:55 PM,TIER 407,Open,27,1,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,107,95325,M,6:00 PM - 7:55 PM,TIER 407,Open,27,5,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,109,95326,T,6:00 PM - 7:55 PM,TIER 406,Open,27,3,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,111,95327,F,6:00 PM - 7:55 PM,TIER 406,Open,32,0,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,113,95328,W,6:00 PM - 7:55 PM,TIER 406,Open,27,0,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,115,95329,R,6:00 PM - 7:55 PM,TIER 406,Open,27,1,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,117,95330,M,6:00 PM - 7:55 PM,TIER 406,Open,27,1,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,001,95298,M,1:45 PM - 3:50 PM,TIER 407,Closed,6,6,"Levy, Roland",Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,003,95299,T,10:45 AM - 12:50 PM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,005,95300,M,10:45 AM - 12:50 PM,TIER 406,Closed,6,6,"Levy, Roland",Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,007,95301,T,1:00 PM - 3:05 PM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,009,95302,R,8:30 AM - 10:35 AM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,013,95304,R,3:15 PM - 5:20 PM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,015,95305,F,9:15 AM - 11:20 AM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,017,95306,F,1:00 PM - 3:05 PM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,019,95307,F,8:30 AM - 10:35 AM,TIER 407,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,021,95308,W,10:45 AM - 12:50 PM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,023,95309,T,8:30 AM - 10:35 AM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,025,95310,T,3:15 PM - 5:20 PM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,027,95311,R,10:45 AM - 12:50 PM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,029,95312,F,3:15 PM - 5:20 PM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,031,95313,M,8:30 AM - 10:35 AM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,033,95314,R,1:00 PM - 3:05 PM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,035,95315,M,11:30 AM - 1:35 PM,TIER 407,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,039,95317,T,3:15 PM - 5:20 PM,TIER 407,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,041,95318,T,8:30 AM - 10:35 AM,TIER 407,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,043,95319,R,12:15 PM - 2:20 PM,TIER 407,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,045,95320,W,12:15 PM - 2:20 PM,TIER 407,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS111A,PHYSICS I LAB,047,95321,M,1:00 PM - 3:05 PM,TIER 406,Closed,6,6,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121,PHYSICS II,001,95331,"T
+R","4:00 PM - 5:20 PM
+1:00 PM - 2:20 PM","KUPF 208
+KUPF 210",Open,39,25,"Gokce, Oktay",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,007,95334,"M
+W","2:30 PM - 3:50 PM
+11:30 AM - 12:50 PM","TIER 112
+TIER LECT 2",Open,35,34,"Shneidman, Vitaly",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,009,95335,"M
+R","8:30 AM - 9:50 AM
+1:00 PM - 2:20 PM","TIER LECT 2
+TIER 112",Open,35,34,"Shneidman, Vitaly",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,011,95336,"M
+W","8:30 AM - 9:50 AM
+8:30 AM - 9:50 AM","TIER LECT 2
+TIER 108",Open,35,33,"Shneidman, Vitaly",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,015,95338,MR,2:30 PM - 3:50 PM,KUPF 105,Open,39,38,"Gokce, Oktay",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,017,95339,MR,1:00 PM - 2:20 PM,FMH 207,Open,35,32,"Zhou, Changshi",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,101,95340,W,6:00 PM - 8:50 PM,FMH 213,Open,41,16,"Gokce, Oktay",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,103,95341,M,6:00 PM - 8:50 PM,TIER 105,Open,37,30,,Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,003,95332,"T
+R","1:00 PM - 2:20 PM
+1:00 PM - 2:20 PM","KUPF 208
+KUPF 210",Closed,39,39,"Gokce, Oktay",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,005,95333,"M
+W","1:00 PM - 2:20 PM
+11:30 AM - 12:50 PM","FMH 110
+TIER LECT 2",Closed,35,35,"Shneidman, Vitaly",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,013,95337,MW,11:30 AM - 12:50 PM,KUPF 208,Closed,39,39,"Thomas, Benjamin",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121,PHYSICS II,105,95342,M,6:00 PM - 8:50 PM,TIER 113,Closed,0,0,,Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS121A,PHYSICS II LAB,001,95343,F,8:30 AM - 10:35 AM,TIER 408,Open,29,22,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,009,95347,R,1:00 PM - 3:05 PM,TIER 408,Open,29,28,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,011,95348,W,8:30 AM - 10:35 AM,TIER 408,Open,29,15,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,013,95349,M,8:30 AM - 10:35 AM,TIER 408,Open,29,11,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,023,95354,F,2:30 PM - 4:35 PM,TIER 408,Open,29,22,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,025,96191,R,3:15 PM - 5:20 PM,TIER 408,Open,29,22,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,027,95355,T,1:00 PM - 3:05 PM,TIER 407,Open,29,27,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,029,95356,R,8:30 AM - 10:35 AM,TIER 408,Open,29,14,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,101,95357,M,6:00 PM - 7:55 PM,TIER 408,Open,29,24,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,103,95358,M,8:05 PM - 10:00 PM,TIER 408,Open,29,1,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,003,95344,T,10:00 AM - 12:05 PM,TIER 408,Closed,29,29,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,005,95345,R,10:45 AM - 12:50 PM,TIER 408,Closed,29,29,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,007,95346,W,12:15 PM - 2:20 PM,TIER 408,Closed,29,29,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,015,95350,T,2:30 PM - 4:35 PM,TIER 408,Closed,29,29,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,017,95351,T,12:15 PM - 2:20 PM,TIER 408,Closed,29,29,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,019,95352,M,1:45 PM - 3:50 PM,TIER 408,Closed,29,28,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS121A,PHYSICS II LAB,021,95353,M,11:30 AM - 1:35 PM,TIER 408,Closed,29,29,,Face-to-Face,1,Book,"Students must also register for LECTURE.
+Withdrawal from LAB requires withdrawal from LECTURE."
+202590,PHYS122,ELECTRICITY & MAGNTSM ECE APPL,003,95360,"M
+W","10:00 AM - 11:20 AM
+11:30 AM - 12:50 PM","KUPF 204
+KUPF 211",Open,38,14,"Gerrard, Andrew",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS122,ELECTRICITY & MAGNTSM ECE APPL,005,95361,MR,10:00 AM - 11:20 AM,KUPF 107,Open,38,10,"Zhou, Changshi",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS122,ELECTRICITY & MAGNTSM ECE APPL,001,95359,"M
+W","11:30 AM - 12:50 PM
+11:30 AM - 12:50 PM","KUPF 105
+KUPF 211",Closed,38,38,"Gerrard, Andrew",Face-to-Face,3,Book,"Students must also register for LAB.
+Withdrawal from LECTURE requires withdrawal from LAB.
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS202,INTRO ASTRONOMY COSMOLGY,001,95362,TR,8:30 AM - 9:50 AM,TIER LECT 2,Open,99,89,"Gatley, Ian",Face-to-Face,3,Book,
+202590,PHYS202,INTRO ASTRONOMY COSMOLGY,101,95365,M,6:00 PM - 8:50 PM,KUPF 207,Open,38,37,"Jerez, Andres",Face-to-Face,3,Book,
+202590,PHYS202,INTRO ASTRONOMY COSMOLGY,103,95366,M,6:00 PM - 8:50 PM,FMH 408,Open,38,36,"Kosovichev, Alexander",Face-to-Face,3,Book,
+202590,PHYS202,INTRO ASTRONOMY COSMOLGY,003,95363,TF,1:00 PM - 2:20 PM,ECEC 115,Closed,13,13,"Georgiou, George",Face-to-Face,3,Book,
+202590,PHYS202,INTRO ASTRONOMY COSMOLGY,005,95364,TF,4:00 PM - 5:20 PM,ECEC 115,Closed,13,13,"Georgiou, George",Face-to-Face,3,Book,
+202590,PHYS202,INTRO ASTRONOMY COSMOLGY,105,95367,R,6:00 PM - 8:50 PM,FMH 213,Closed,38,38,"Maljian, Libarid",Face-to-Face,3,Book,
+202590,PHYS202A,INTRO ASTRONOMY &COS LAB,003,95369,T,8:30 AM - 10:35 AM,TIER 409,Open,24,17,,Face-to-Face,1,Book,
+202590,PHYS202A,INTRO ASTRONOMY &COS LAB,005,95370,M,12:15 PM - 2:20 PM,TIER 409,Open,24,23,,Face-to-Face,1,Book,
+202590,PHYS202A,INTRO ASTRONOMY &COS LAB,001,95368,M,8:30 AM - 10:35 AM,TIER 409,Closed,24,24,,Face-to-Face,1,Book,
+202590,PHYS203,THE EARTH IN SPACE,101,95377,W,6:00 PM - 8:50 PM,ECEC 100,Open,37,24,"Ravindra, N.",Face-to-Face,3,Book,
+202590,PHYS203,THE EARTH IN SPACE,103,95378,T,6:00 PM - 8:50 PM,FMH 306,Open,37,31,"Ravindra, N.",Face-to-Face,3,Book,
+202590,PHYS203,THE EARTH IN SPACE,001,95371,TF,8:30 AM - 9:50 AM,KUPF 103,Closed,28,28,"Maljian, Libarid",Face-to-Face,3,Book,
+202590,PHYS203,THE EARTH IN SPACE,003,95372,MR,2:30 PM - 3:50 PM,KUPF 208,Closed,28,28,"Maljian, Libarid",Face-to-Face,3,Book,
+202590,PHYS203,THE EARTH IN SPACE,005,95373,TF,1:00 PM - 2:20 PM,KUPF 207,Closed,28,28,"Maljian, Libarid",Face-to-Face,3,Book,
+202590,PHYS203,THE EARTH IN SPACE,007,95374,MR,1:00 PM - 2:20 PM,ECEC 100,Closed,28,28,"Georgiou, George",Face-to-Face,3,Book,
+202590,PHYS203,THE EARTH IN SPACE,009,95375,TR,11:30 AM - 12:50 PM,ECEC 100,Closed,28,28,"Georgiou, George",Face-to-Face,3,Book,
+202590,PHYS203,THE EARTH IN SPACE,011,95376,TR,8:30 AM - 9:50 AM,ECEC 100,Closed,28,28,"Georgiou, George",Face-to-Face,3,Book,
+202590,PHYS203A,THE EARTH IN SPACE LAB,005,95381,W,8:30 AM - 10:35 AM,TIER 409,Open,27,18,,Face-to-Face,1,Book,
+202590,PHYS203A,THE EARTH IN SPACE LAB,001,95379,W,10:45 AM - 12:50 PM,TIER 409,Closed,27,27,,Face-to-Face,1,Book,
+202590,PHYS203A,THE EARTH IN SPACE LAB,003,95380,R,10:45 AM - 12:50 PM,TIER 409,Closed,27,27,,Face-to-Face,1,Book,
+202590,PHYS231A,PHYSICS III LAB,001,95382,F,1:00 PM - 3:05 PM,TIER 407,Open,32,4,"Gokce, Oktay",Face-to-Face,1,Book,
+202590,PHYS234,PHYSICS III,001,95383,"M
+W","1:00 PM - 2:20 PM
+1:00 PM - 2:20 PM","KUPF 209
+ECEC 115",Open,28,24,"Jerez, Andres",Face-to-Face,3,Book,"This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS234,PHYSICS III,003,95384,MW,10:00 AM - 11:20 AM,FMH 213,Open,43,38,"Jerez, Andres",Face-to-Face,3,Book,"This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS234,PHYSICS III,101,95385,W,6:00 PM - 8:50 PM,FMH 408,Closed,23,23,"Jerez, Andres",Face-to-Face,3,Book,"This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS234,PHYSICS III,HM1,95386,"M
+W","1:00 PM - 2:20 PM
+1:00 PM - 2:20 PM","KUPF 209
+ECEC 115",Open,15,9,"Jerez, Andres",Face-to-Face,3,Book,"Honors Course
+This course has common exams.
+See https://www5.njit.edu/registrar/exams/ for details."
+202590,PHYS311,WORK EXPERIENCE I,789,95387,,TBA,,Open,19,0,"Thomas, Benjamin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS311,WORK EXPERIENCE I,793,95388,,TBA,,Open,19,0,"Kim, Hyomin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS311,WORK EXPERIENCE I,829,95389,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS320,ASTRONOMY AND ASTROPHYSICS I,001,95390,TF,1:00 PM - 2:20 PM,FMH 403,Open,35,19,"Perry, Gareth",Face-to-Face,3,Book,
+202590,PHYS411,WORK EXPERIENCE II,793,96658,,TBA,,Open,19,1,"Kim, Hyomin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS420,SPECIAL RELATIVITY,001,95391,TR,11:30 AM - 12:50 PM,FMH 409,Open,35,7,"Maljian, Libarid",Face-to-Face,3,Book,
+202590,PHYS430,CLASSICAL MECHANICS I,001,95392,MW,8:30 AM - 9:50 AM,FMH 309,Open,35,15,"Jerez, Andres",Face-to-Face,3,Book,
+202590,PHYS432,ELECTROMAGNETISM I,001,95393,TF,2:30 PM - 3:50 PM,FMH 407,Open,35,21,"Goodwin, Lindsay",Face-to-Face,3,Book,
+202590,PHYS490,INDEPENDENT STUDY,500,95394,,TBA,,Open,19,0,"Kosovichev, Alexander",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,785,95395,,TBA,,Open,19,0,"Yang, Junjie",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,788,95396,,TBA,,Open,19,0,"Chen, Bin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,789,95397,,TBA,,Open,19,1,"Thomas, Benjamin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,791,95398,,TBA,,Open,19,0,"Perry, Gareth",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,792,95399,,TBA,,Open,19,0,"Ravindra, N.",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,793,95400,,TBA,,Open,19,0,"Kim, Hyomin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,796,95401,,TBA,,Open,19,0,"Ahn, Keun Hyuk",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,798,95402,,TBA,,Open,19,0,"Goodwin, Lindsay",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,803,95403,,TBA,,Open,19,0,"Levy, Roland",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,804,95404,,TBA,,Open,19,0,"Federici, John",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,805,95405,,TBA,,Open,19,0,"Cao, Wenda",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,806,95406,,TBA,,Open,19,0,"Dias, Cristiano",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,807,95407,,TBA,,Open,19,0,"Wang, Haimin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,808,95408,,TBA,,Open,19,0,"Tyson, Trevor",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,809,95409,,TBA,,Open,19,0,"Gatley, Ian",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,812,95410,,TBA,,Open,19,0,"Gary, Dale",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,821,95411,,TBA,,Open,19,0,"Inoue, Satoshi",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,825,95412,,TBA,,Open,19,0,"Sirenko, Andrei",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,826,95413,,TBA,,Open,19,0,"Zhou, Tao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS490,INDEPENDENT STUDY,829,95414,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,500,95415,,TBA,,Open,19,0,"Kosovichev, Alexander",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,785,95416,,TBA,,Open,19,0,"Yang, Junjie",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,788,95417,,TBA,,Open,19,0,"Chen, Bin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,789,95418,,TBA,,Open,19,0,"Thomas, Benjamin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,791,95419,,TBA,,Open,19,0,"Perry, Gareth",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,792,95420,,TBA,,Open,19,0,"Ravindra, N.",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,793,95421,,TBA,,Open,19,0,"Kim, Hyomin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,796,95422,,TBA,,Open,19,0,"Ahn, Keun Hyuk",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,798,95423,,TBA,,Open,19,0,"Goodwin, Lindsay",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,803,95424,,TBA,,Open,19,0,"Levy, Roland",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,804,95425,,TBA,,Open,19,0,"Federici, John",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,805,95426,,TBA,,Open,19,0,"Cao, Wenda",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,806,95427,,TBA,,Open,19,0,"Dias, Cristiano",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,807,95428,,TBA,,Open,19,0,"Wang, Haimin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,808,95429,,TBA,,Open,19,0,"Tyson, Trevor",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,809,95430,,TBA,,Open,19,0,"Gatley, Ian",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,812,95431,,TBA,,Open,19,0,"Gary, Dale",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,821,95432,,TBA,,Open,19,0,"Inoue, Satoshi",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,825,95433,,TBA,,Open,19,0,"Sirenko, Andrei",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,826,95434,,TBA,,Open,19,0,"Zhou, Tao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS491,INDEPENDENT STUDY II,829,95435,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS611,ADV CLASSICAL MECHANICS,101,95436,M,6:00 PM - 8:50 PM,FMH 319,Open,25,1,"Zhou, Tao",Face-to-Face,3,Book,
+202590,PHYS621,CLASSICAL ELECTRODYNAMIC,101,95437,R,6:00 PM - 8:50 PM,FMH 108,Open,25,1,"Inoue, Satoshi",Face-to-Face,3,Book,
+202590,PHYS690,DIRECTED STUDY APPL PHYS,792,95438,,TBA,,Open,19,0,"Ravindra, N.",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS690,DIRECTED STUDY APPL PHYS,804,95439,,TBA,,Open,19,0,"Federici, John",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS690,DIRECTED STUDY APPL PHYS,825,95440,,TBA,,Open,19,0,"Sirenko, Andrei",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS690,DIRECTED STUDY APPL PHYS,826,95441,,TBA,,Open,19,0,"Zhou, Tao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS690,DIRECTED STUDY APPL PHYS,829,95442,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,500,95443,,TBA,,Open,19,0,"Kosovichev, Alexander",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,785,95444,,TBA,,Open,19,0,"Yang, Junjie",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,788,95445,,TBA,,Open,19,0,"Chen, Bin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,789,95446,,TBA,,Open,19,0,"Thomas, Benjamin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,791,95447,,TBA,,Open,19,0,"Perry, Gareth",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,792,95448,,TBA,,Open,19,0,"Ravindra, N.",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,793,95449,,TBA,,Open,19,0,"Kim, Hyomin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,796,95450,,TBA,,Open,19,0,"Ahn, Keun Hyuk",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,798,95451,,TBA,,Open,19,0,"Goodwin, Lindsay",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,803,95452,,TBA,,Open,19,0,"Levy, Roland",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,804,95453,,TBA,,Open,19,0,"Federici, John",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,805,95454,,TBA,,Open,19,0,"Cao, Wenda",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,806,95455,,TBA,,Open,19,0,"Dias, Cristiano",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,807,95456,,TBA,,Open,19,0,"Wang, Haimin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,808,95457,,TBA,,Open,19,0,"Tyson, Trevor",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,809,95458,,TBA,,Open,19,0,"Gatley, Ian",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,812,95459,,TBA,,Open,19,0,"Gary, Dale",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,821,95460,,TBA,,Open,19,0,"Inoue, Satoshi",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,825,95461,,TBA,,Open,19,0,"Sirenko, Andrei",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,826,95462,,TBA,,Open,19,0,"Zhou, Tao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS700B,MASTER'S PROJECT,829,95463,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,500,95464,,TBA,,Open,19,0,"Kosovichev, Alexander",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,785,95465,,TBA,,Open,19,0,"Yang, Junjie",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,788,95466,,TBA,,Open,19,0,"Chen, Bin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,789,95467,,TBA,,Open,19,0,"Thomas, Benjamin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,791,95468,,TBA,,Open,19,0,"Perry, Gareth",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,792,95469,,TBA,,Open,19,0,"Ravindra, N.",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,793,95470,,TBA,,Open,19,0,"Kim, Hyomin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,796,95471,,TBA,,Open,19,0,"Ahn, Keun Hyuk",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,798,95472,,TBA,,Open,19,0,"Goodwin, Lindsay",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,803,95473,,TBA,,Open,19,0,"Levy, Roland",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,804,95474,,TBA,,Open,19,0,"Federici, John",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,805,95475,,TBA,,Open,19,0,"Cao, Wenda",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,806,95476,,TBA,,Open,19,0,"Dias, Cristiano",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,807,95477,,TBA,,Open,19,0,"Wang, Haimin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,808,95478,,TBA,,Open,19,0,"Tyson, Trevor",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,809,95479,,TBA,,Open,19,0,"Gatley, Ian",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,812,95480,,TBA,,Open,19,0,"Gary, Dale",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,821,95481,,TBA,,Open,19,0,"Inoue, Satoshi",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,825,95482,,TBA,,Open,19,0,"Sirenko, Andrei",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,826,95483,,TBA,,Open,19,0,"Zhou, Tao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701B,MASTER'S THESIS,829,95484,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,500,95485,,TBA,,Open,19,0,"Kosovichev, Alexander",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,785,95486,,TBA,,Open,19,0,"Yang, Junjie",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,788,95487,,TBA,,Open,19,0,"Chen, Bin",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,789,95488,,TBA,,Open,19,0,"Thomas, Benjamin",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,791,95489,,TBA,,Open,19,0,"Perry, Gareth",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,792,95490,,TBA,,Open,19,0,"Ravindra, N.",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,793,95491,,TBA,,Open,19,0,"Kim, Hyomin",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,796,95492,,TBA,,Open,19,0,"Ahn, Keun Hyuk",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,798,95493,,TBA,,Open,19,0,"Goodwin, Lindsay",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,803,95494,,TBA,,Open,19,0,"Levy, Roland",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,804,95495,,TBA,,Open,19,0,"Federici, John",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,805,95496,,TBA,,Open,19,0,"Cao, Wenda",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,806,95497,,TBA,,Open,19,0,"Dias, Cristiano",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,807,95498,,TBA,,Open,19,0,"Wang, Haimin",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,808,95499,,TBA,,Open,19,0,"Tyson, Trevor",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,809,95500,,TBA,,Open,19,0,"Gatley, Ian",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,812,95501,,TBA,,Open,19,0,"Gary, Dale",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,821,95502,,TBA,,Open,19,0,"Inoue, Satoshi",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,825,95503,,TBA,,Open,19,0,"Sirenko, Andrei",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,826,95504,,TBA,,Open,19,0,"Zhou, Tao",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS701C,MASTER'S THESIS,829,95505,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,6,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,500,95506,,TBA,,Open,19,0,"Kosovichev, Alexander",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,785,95507,,TBA,,Open,19,0,"Yang, Junjie",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,788,95508,,TBA,,Open,19,0,"Chen, Bin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,789,95509,,TBA,,Open,19,0,"Thomas, Benjamin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,791,95510,,TBA,,Open,19,1,"Perry, Gareth",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,792,95511,,TBA,,Open,19,0,"Ravindra, N.",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,793,95512,,TBA,,Open,19,0,"Kim, Hyomin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,796,95513,,TBA,,Open,19,0,"Ahn, Keun Hyuk",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,798,95514,,TBA,,Open,19,0,"Goodwin, Lindsay",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,803,95515,,TBA,,Open,19,0,"Levy, Roland",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,804,95516,,TBA,,Open,19,0,"Federici, John",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,805,95517,,TBA,,Open,19,0,"Cao, Wenda",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,806,95518,,TBA,,Open,19,0,"Dias, Cristiano",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,807,95519,,TBA,,Open,19,0,"Wang, Haimin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,808,95520,,TBA,,Open,19,0,"Tyson, Trevor",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,809,95521,,TBA,,Open,19,0,"Gatley, Ian",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,812,95522,,TBA,,Open,19,0,"Gary, Dale",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,821,95523,,TBA,,Open,19,0,"Inoue, Satoshi",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,825,95524,,TBA,,Open,19,0,"Sirenko, Andrei",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,826,95525,,TBA,,Open,19,0,"Zhou, Tao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS725,INDEPENDENT STUDY I,829,95526,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,500,95527,,TBA,,Open,19,0,"Kosovichev, Alexander",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,785,95528,,TBA,,Open,19,0,"Yang, Junjie",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,788,95529,,TBA,,Open,19,0,"Chen, Bin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,789,95530,,TBA,,Open,19,0,"Thomas, Benjamin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,791,95531,,TBA,,Open,19,0,"Perry, Gareth",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,792,95532,,TBA,,Open,19,0,"Ravindra, N.",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,793,95533,,TBA,,Open,19,0,"Kim, Hyomin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,796,95534,,TBA,,Open,19,0,"Ahn, Keun Hyuk",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,798,95535,,TBA,,Open,19,0,"Goodwin, Lindsay",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,803,95536,,TBA,,Open,19,0,"Levy, Roland",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,804,95537,,TBA,,Open,19,0,"Federici, John",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,805,95538,,TBA,,Open,19,0,"Cao, Wenda",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,806,95539,,TBA,,Open,19,1,"Dias, Cristiano",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,807,95540,,TBA,,Open,19,0,"Wang, Haimin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,808,95541,,TBA,,Open,19,0,"Tyson, Trevor",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,809,95542,,TBA,,Open,19,0,"Gatley, Ian",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,812,95543,,TBA,,Open,19,0,"Gary, Dale",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,821,95544,,TBA,,Open,19,0,"Inoue, Satoshi",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,825,95545,,TBA,,Open,19,0,"Sirenko, Andrei",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,826,95546,,TBA,,Open,19,0,"Zhou, Tao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS726,INDEPENDENT STUDY II,829,95547,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS731,QUANTUM MECHANICS II,001,95548,MW,10:00 AM - 11:20 AM,TIER 108,Open,25,3,"Zhou, Tao",Face-to-Face,3,Book,
+202590,PHYS780,ST: SOLAR AND SOLAR,001,95549,"M
+T","2:30 PM - 3:50 PM
+10:00 AM - 11:20 AM","FMH 319
+FMH 319",Open,25,4,"Kosovichev, Alexander",Face-to-Face,3,Book,ST: Solar and Solar-Terrestrial Physics
+202590,PHYS790A,DOCT DISSERTATION & RES,500,95550,,TBA,,Open,19,0,"Kosovichev, Alexander",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,785,95551,,TBA,,Open,19,1,"Yang, Junjie",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,788,95552,,TBA,,Open,19,2,"Chen, Bin",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,789,95553,,TBA,,Open,19,1,"Thomas, Benjamin",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,791,95554,,TBA,,Open,19,0,"Perry, Gareth",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,792,95555,,TBA,,Open,19,1,"Ravindra, N.",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,793,95556,,TBA,,Open,19,2,"Kim, Hyomin",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,796,95557,,TBA,,Open,19,0,"Ahn, Keun Hyuk",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,798,95558,,TBA,,Open,19,0,"Goodwin, Lindsay",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,803,95559,,TBA,,Open,19,0,"Levy, Roland",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,804,95560,,TBA,,Open,19,0,"Federici, John",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,805,95561,,TBA,,Open,19,0,"Cao, Wenda",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,806,95562,,TBA,,Open,19,0,"Dias, Cristiano",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,807,95563,,TBA,,Open,19,2,"Wang, Haimin",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,808,95564,,TBA,,Open,19,0,"Tyson, Trevor",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,809,95565,,TBA,,Open,19,0,"Gatley, Ian",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,812,95566,,TBA,,Open,19,0,"Gary, Dale",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,821,95567,,TBA,,Open,19,1,"Inoue, Satoshi",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,825,95568,,TBA,,Open,19,0,"Sirenko, Andrei",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,826,95569,,TBA,,Open,19,0,"Zhou, Tao",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS790A,DOCT DISSERTATION & RES,829,95570,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,1,Book,See department for permission to enroll.
+202590,PHYS791,DOCTORAL SEMINAR,001,95571,M,11:30 AM - 12:50 PM,FMH 408,Open,50,24,"Ahn, Keun Hyuk",Face-to-Face,0,Book,
+202590,PHYS792,PRE,500,95572,,TBA,,Open,19,0,"Kosovichev, Alexander",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,785,95573,,TBA,,Open,19,0,"Yang, Junjie",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,788,95574,,TBA,,Open,19,0,"Chen, Bin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,789,95575,,TBA,,Open,19,0,"Thomas, Benjamin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,791,95576,,TBA,,Open,19,0,"Perry, Gareth",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,792,95577,,TBA,,Open,19,0,"Ravindra, N.",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,793,95578,,TBA,,Open,19,1,"Kim, Hyomin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,796,95579,,TBA,,Open,19,0,"Ahn, Keun Hyuk",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,798,95580,,TBA,,Open,19,2,"Goodwin, Lindsay",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,803,95581,,TBA,,Open,19,0,"Levy, Roland",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,804,95582,,TBA,,Open,19,0,"Federici, John",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,805,95583,,TBA,,Open,19,0,"Cao, Wenda",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,806,95584,,TBA,,Open,19,1,"Dias, Cristiano",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,807,95585,,TBA,,Open,19,0,"Wang, Haimin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,808,95586,,TBA,,Open,19,0,"Tyson, Trevor",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,809,95587,,TBA,,Open,19,0,"Gatley, Ian",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,812,95588,,TBA,,Open,19,0,"Gary, Dale",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,821,95589,,TBA,,Open,19,0,"Inoue, Satoshi",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,825,95590,,TBA,,Open,19,0,"Sirenko, Andrei",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,826,95591,,TBA,,Open,19,0,"Zhou, Tao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PHYS792,PRE,829,95592,,TBA,,Open,19,0,"Gerrard, Andrew",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PSY201,ORIENTATION PSYCH AS BEHAV SCI,001,95593,TF,1:00 PM - 2:20 PM,CKB 214,Open,14,8,"Hyland Bruno, Julia",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,007,95597,TF,4:00 PM - 5:20 PM,CKB 223,Open,20,19,,Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,101,95607,S,1:00 PM - 3:50 PM,CKB 223,Open,40,25,"Anjum, Aruba",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,103,95608,S,9:00 AM - 11:50 AM,CKB 223,Open,40,29,"Anjum, Aruba",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,105,95609,R,6:00 PM - 8:50 PM,CKB 223,Open,35,11,"Hall, Jill",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,107,95610,M,6:00 PM - 8:50 PM,CKB 317,Open,35,23,"Hall, Jill",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,109,95611,W,6:00 PM - 8:50 PM,CKB 317,Open,35,20,"Jones, Nicholas",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,111,95612,T,6:00 PM - 8:50 PM,CKB 317,Open,35,17,,Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,001,95594,MW,8:30 AM - 9:50 AM,CKB 330,Closed,20,20,"DiLorenzo, Andreea",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,003,95595,MW,11:30 AM - 12:50 PM,CKB 106,Closed,20,20,"DiLorenzo, Andreea",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,005,95596,MR,1:00 PM - 2:20 PM,CKB 106,Closed,20,20,,Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,009,95598,TF,1:00 PM - 2:20 PM,CKB 223,Closed,20,20,,Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,011,95599,MW,11:30 AM - 12:50 PM,KUPF 203,Closed,20,20,,Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,013,95600,WF,10:00 AM - 11:20 AM,CKB 120,Closed,20,20,,Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,015,95601,TF,2:30 PM - 3:50 PM,KUPF 105,Closed,20,20,"Cohen, Kaitlin",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,017,95602,TF,1:00 PM - 2:20 PM,CKB 106,Closed,20,20,"Cohen, Kaitlin",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,019,95603,TR,8:30 AM - 9:50 AM,CKB 223,Closed,20,20,,Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,021,95604,TR,10:00 AM - 11:20 AM,CKB 330,Closed,20,20,"Dickerman, Laura Devorah",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,023,95605,TR,1:00 PM - 2:20 PM,CKB 120,Closed,20,20,"Dickerman, Laura Devorah",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,025,95606,F,8:30 AM - 11:20 AM,CKB 223,Closed,20,20,"Lombana, Jessyka",Face-to-Face,3,Book,
+202590,PSY210,INTRODUCTION TO PSYCHOLOGY,H01,95613,TF,2:30 PM - 3:50 PM,CKB 223,Closed,20,20,"Dickerman, Laura Devorah",Face-to-Face,3,Book,Honors Course
+202590,PSY304,SS RESEARCH METHODS I,001,95614,MW,10:00 AM - 11:20 AM,CKB G-17A,Closed,17,17,"Hunt, Theresa",Face-to-Face,3,Book,
+202590,PSY304A,SS RESEARCH METHODS I LAB,001,95615,T,10:00 AM - 12:05 PM,MALL PC40,Open,25,17,"Hunt, Theresa",Face-to-Face,1,Book,
+202590,PSY307,SS RESEARCH METHODS II,001,95616,TR,10:00 AM - 11:20 AM,FMH 413,Open,30,5,"Morgenstern, Leonore",Face-to-Face,3,Book,
+202590,PSY307A,SS RESEARCH METHODS II LAB,001,95617,W,8:30 AM - 10:35 AM,MALL PC40,Open,30,4,"Morgenstern, Leonore",Face-to-Face,1,Book,
+202590,PSY321,SOCIAL PSYCHOLOGY,001,95618,MR,2:30 PM - 3:50 PM,FMH 413,Closed,30,30,,Face-to-Face,3,Book,
+202590,PSY325,ST: CHILD PSYCHOLOGY,005,95621,TR,10:00 AM - 11:20 AM,FMH 407,Closed,30,30,"Conover, Kelly",Face-to-Face,3,Book,
+202590,PSY325,ST: STRESS PERFORMANCE MANAGEMENT,003,95620,F,8:30 AM - 11:20 AM,CKB 215,Open,25,22,"Cohen, Kaitlin",Face-to-Face,3,Book,
+202590,PSY339,PSYCHOLOGY OF DIVERSITY,001,95622,MW,11:30 AM - 12:50 PM,FMH 106,Closed,26,26,"Khichi, Narendra-Neel",Face-to-Face,3,Book,
+202590,PSY359,FOUNDATIONS OF CYBERPSYCHOLOGY,001,95623,TR,4:00 PM - 5:20 PM,FMH 305,Closed,24,24,"Wolf, John",Face-to-Face,3,Book,
+202590,PSY389,PSYCHOPATHOLOGY,001,95624,F,1:00 PM - 3:50 PM,CKB 314,Open,30,21,"Lombana, Jessyka",Face-to-Face,3,Book,
+202590,PSY490,CO,669,95625,,TBA,,Open,19,0,"Hunt, Theresa",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PSY491,RESEARCH AND INDEPENDENT STUDY,631,95626,,TBA,,Open,19,0,"Snyder, Eugene",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PSY491,RESEARCH AND INDEPENDENT STUDY,639,95627,,TBA,,Open,19,0,"Sun, Yao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PSY491,RESEARCH AND INDEPENDENT STUDY,644,95628,,TBA,,Open,19,0,"Khichi, Narendra-Neel",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PSY491,RESEARCH AND INDEPENDENT STUDY,658,95629,,TBA,,Open,19,0,"Estrada, Daniel",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PSY491,RESEARCH AND INDEPENDENT STUDY,668,95630,,TBA,,Open,19,0,"Semizer, Yelda",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PSY495,SENIOR SEMINAR,669,95631,,TBA,,Open,19,2,"Hunt, Theresa",Face-to-Face,3,Book,See department for permission to enroll.
+202590,PTC660,MEDICAL ETHICS,851,95632,,TBA,,Open,30,1,"Deek, Andrew",Online Virtual,3,Book,"Restricted to Virtual Campus Students Only
+Online Course"

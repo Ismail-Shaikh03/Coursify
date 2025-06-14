@@ -1,0 +1,217 @@
+Term,Course,Title,Section,CRN,Days,Times,Location,Status,Max,Now,Instructor,Delivery Mode,Credits,Info,Comments
+
+202590,SDET101,FUND OF SOFT AND DATA,001,95634,TR,8:30 AM - 10:35 AM,CKB 207,Open,5,1,,Face-to-Face,3,Book,Students must bring their own device for this section.
+202590,SDET101,FUND OF SOFT AND DATA,101,95635,M,6:00 PM - 10:05 PM,CKB 212,Open,25,0,"Abichandani, Pramod",Face-to-Face,3,Book,Students must bring their own device for this section.
+202590,SDET310,COMPUTER DESIGN FUNDAMENTALS,101,95636,R,6:00 PM - 10:05 PM,CKB 314,Closed,30,30,"Lubliner, David",,3,Book,Students must bring their own device for this section.
+202590,SDET315,COMPUTER ARCHITECTURE,101,95637,T,6:00 PM - 10:05 PM,CKB 315,Open,30,9,"Patel, Amit",Face-to-Face,3,Book,Students must bring their own device for this section.
+202590,SDET325,MEDICAL INFORMATICS TECHNOLOGY,101,95638,S,9:00 AM - 11:50 AM,CKB 207,Open,30,7,"Lubliner, David",Face-to-Face,3,Book,Students must bring their own device for this section.
+202590,SDET330,SOFTWARE WEB APPLICATIONS I,101,95639,W,6:00 PM - 10:05 PM,CKB 313,Open,30,14,"Aslam, Ersal",Face-to-Face,3,Book,Students must bring their own device for this section.
+202590,SDET341,VISUAL BASIC .NET,101,95640,R,6:00 PM - 10:05 PM,CKB 341,Open,30,17,"Tereshkovich, William",Face-to-Face,3,Book,Students must bring their own device for this section.
+202590,SDET373,WEB APP DEVELOPMENT FOR MOBILE,101,95641,M,6:00 PM - 10:05 PM,CKB 313,Closed,30,30,"Nasello, Daniel",Face-to-Face,3,Book,Students must bring their own device for this section.
+202590,SDET430,SOFTWARE WEB APPLICATIONS II,101,95642,T,6:00 PM - 10:05 PM,CKB 212,Open,30,11,"Aslam, Ersal",,3,Book,Students must bring their own device for this section.
+202590,SDET491,SPECIAL TOPICS,340,96678,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,SDET492,SPECIAL TOPICS,340,96679,,TBA,,Open,19,0,,Face-to-Face,2,Book,See department for permission to enroll.
+202590,SDET493,SPECIAL TOPICS,340,96680,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,SET200,INTRODUCTION TO GEOMATICS,101,95643,M,6:00 PM - 7:55 PM,GITC 1100,Open,25,24,"Potts, Laramie",Hybrid,2,Book,"Hybrid Course
+Face-to-face meetings held alternate weeks starting:
+09/08/25"
+202590,SET200A,INTRODUCTION TO GEOMATICS LAB,101,95644,S,9:00 AM - 2:50 PM,MALL PC39,Closed,25,25,"Todosov, Angel",Hybrid,1,Book,"Hybrid Course
+Face-to-face meetings held alternate weeks starting:
+09/06/25"
+202590,SET301,ROUTE SURVEYING,101,95645,R,6:00 PM - 10:05 PM,MALL PC40,Open,25,7,"Frawley, Thomas",Face-to-Face,3,Book,
+202590,SET307,BOUND & ADJACENT PROPERT,102,95646,F,6:00 PM - 8:50 PM,CKB 341,Open,30,2,"Potts, Laramie",Hybrid,3,Book,"Hybrid Course
+Face-to-face meetings held alternate weeks starting:
+09/05/25"
+202590,SET491,SPECIAL PROJECTS IN SURVEYING,359,95650,,TBA,,Open,19,0,"Potts, Laramie",Face-to-Face,1,Book,See department for permission to enroll.
+202590,SET492,SPECIAL PROJECTS IN SURVEYING,359,95651,,TBA,,Open,19,0,"Potts, Laramie",Face-to-Face,2,Book,See department for permission to enroll.
+202590,SET493,SPECIAL PROJECTS IN SURVEYING,359,95652,,TBA,,Open,19,0,"Potts, Laramie",Face-to-Face,3,Book,See department for permission to enroll.
+202590,STS201,UNDERSTANDING TECH SOCIETY,001,95653,TR,8:30 AM - 9:50 AM,CKB 206,Closed,0,0,"Bozicevic, Miran",Face-to-Face,3,Book,
+202590,STS201,UNDERSTANDING TECH SOCIETY,003,95654,TF,4:00 PM - 5:20 PM,CKB 114,Closed,0,0,"Leli, Tyler",Face-to-Face,3,Book,
+202590,STS201,UNDERSTANDING TECH SOCIETY,005,95655,TR,1:00 PM - 2:20 PM,CKB 314,Closed,0,0,"Bozicevic, Miran",Face-to-Face,3,Book,
+202590,STS201,UNDERSTANDING TECH SOCIETY,007,95656,TF,4:00 PM - 5:20 PM,CKB 314,Closed,0,0,"Goncalves Leonel da Silva, Renan",Face-to-Face,3,Book,
+202590,STS201,UNDERSTANDING TECH SOCIETY,009,95657,TF,1:00 PM - 2:20 PM,CKB 320,Closed,0,0,"Goncalves Leonel da Silva, Renan",Face-to-Face,3,Book,
+202590,STS201,UNDERSTANDING TECH SOCIETY,011,95658,TR,10:00 AM - 11:20 AM,CKB 114,Closed,0,0,"Bozicevic, Miran",Face-to-Face,3,Book,
+202590,STS201,UNDERSTANDING TECH SOCIETY,013,95659,MW,8:30 AM - 9:50 AM,CKB 114,Closed,0,1,"Keeler, Teresa",Face-to-Face,3,Book,
+202590,STS205,INTRO TO RESEARCH METHODS,001,95660,MW,8:30 AM - 9:50 AM,FMH 305,Open,21,20,"Hunt, Theresa",Face-to-Face,3,Book,
+202590,STS205,INTRO TO RESEARCH METHODS,H01,95661,MW,10:00 AM - 11:20 AM,DHRH 210,Closed,21,21,"Tancredi-Brice Agbenyega, Emily",Face-to-Face,3,Book,Honors Course
+202590,STS221,INTRODUCTION TO SOCIOLOGY,001,95662,TF,8:30 AM - 9:50 AM,CKB 222,Closed,24,24,"Manley, Lauren",Face-to-Face,3,Book,
+202590,STS221,INTRODUCTION TO SOCIOLOGY,003,95663,TR,11:30 AM - 12:50 PM,CKB 114,Closed,24,24,"Edel, Gareth",Face-to-Face,3,Book,
+202590,STS230,INTRO TO ANTHROPOLOGY,001,95664,WF,10:00 AM - 11:20 AM,CKB 222,Open,31,23,"Brooks, Charles",Face-to-Face,3,Book,
+202590,STS301,INDEPENDENT STUDY,645,95665,,TBA,,Open,19,0,"Cohen, Maurie",Face-to-Face,1,Book,"Permission of instructor required
+See department for permission to enroll."
+202590,STS303,INDEPENDENT STUDY,634,95666,,TBA,,Open,19,0,"Rothenberg, David",Face-to-Face,3,Book,See department for permission to enroll.
+202590,STS303,INDEPENDENT STUDY,645,95667,,TBA,,Open,19,0,"Cohen, Maurie",Face-to-Face,3,Book,See department for permission to enroll.
+202590,STS311,WORK EXPERIENCE I,644,95668,,TBA,,Open,19,0,"Khichi, Narendra-Neel",Face-to-Face,3,Book,See department for permission to enroll.
+202590,STS325,ST: FROM TAIPEI TO TOKYO,005,96598,MW,11:30 AM - 12:50 PM,CULM 411,Closed,20,20,,Face-to-Face,3,Book,
+202590,STS325,"ST: DEMOCRATIC POLITICS: INSTITUTIONS, MEDIA, AND SOCIETY",003,95670,TR,10:00 AM - 11:20 AM,FMH 313,Open,26,5,,Face-to-Face,3,Book,
+202590,STS325,ST: MEDICAL SOCIOLOGY: PATHOLOGY AND DEVIANCE,001,95669,MW,1:00 PM - 2:20 PM,CKB 341,Open,11,5,"Edel, Gareth",Face-to-Face,3,Book,
+202590,STS325,ST: MEDICAL SOCIOLOGY: PATHOLOGY AND DEVIANCE,HM1,95672,MW,1:00 PM - 2:20 PM,CKB 341,Open,11,5,"Edel, Gareth",Face-to-Face,3,Book,Honors Section
+202590,STS325,ST: ORGANIZATIONAL CRISIS COMMUNICATIONS,101,95671,M,6:00 PM - 8:50 PM,FMH 313,Open,26,3,"Golden, Matthew",Face-to-Face,3,Book,
+202590,STS325,"ST: SCIENCE, TECHNOLOGY & URBAN TRANSFORMATION",H01,96524,MW,1:00 PM - 2:20 PM,DHRH 212,Open,26,9,"Tancredi-Brice Agbenyega, Emily",Face-to-Face,3,Book,
+202590,STS342,"GENDER, TECHNOLOGY AND SOCIETY",101,95673,T,6:00 PM - 8:50 PM,CULM LECT 1,Open,16,15,"Steffen-Fluhr, Nancy",Face-to-Face,3,Book,
+202590,STS342,"GENDER, TECHNOLOGY AND SOCIETY",HM1,95674,T,6:00 PM - 8:50 PM,CULM LECT 1,Open,11,7,"Steffen-Fluhr, Nancy",Face-to-Face,3,Book,Honors Course
+202590,STS351,MINDS AND MACHINES,001,95675,TF,8:30 AM - 9:50 AM,FMH 411,Closed,11,11,"Estrada, Daniel",Face-to-Face,3,Book,
+202590,STS351,MINDS AND MACHINES,HM1,95676,TF,1:00 PM - 2:20 PM,FMH 411,Open,11,3,"Estrada, Daniel",Face-to-Face,3,Book,HONORS SECTION
+202590,STS352,RACE AND ETHNICITY,101,95677,W,6:00 PM - 8:50 PM,KUPF 202,Open,36,35,"Dickerman, Laura Devorah",Face-to-Face,3,Book,
+202590,STS360,ETHICS AND THE ENVIRONMENT,001,95678,WF,1:00 PM - 2:20 PM,KUPF 204,Open,36,20,"See, Adam",Face-to-Face,3,Book,
+202590,STS360,ETHICS AND THE ENVIRONMENT,003,95679,WF,10:00 AM - 11:20 AM,FMH 409,Open,28,22,"See, Adam",Face-to-Face,3,Book,
+202590,STS363,SUSTAINABILITY STUDIES,101,95680,T,6:00 PM - 8:50 PM,FMH 408,Closed,36,36,"Cohen, Maurie",Face-to-Face,3,Book,
+202590,STS363,SUSTAINABILITY STUDIES,HM1,95681,T,6:00 PM - 8:50 PM,FMH 408,Open,11,7,"Cohen, Maurie",Face-to-Face,3,Book,Honors Course
+202590,STS401,INDEPENDENT STUDY,661,95682,,TBA,,Open,19,0,"Self, Courtney",Face-to-Face,1,Book,See department for permission to enroll.
+202590,STS403,INDEPENDENT STUDY,634,95683,,TBA,,Open,19,0,"Rothenberg, David",Face-to-Face,3,Book,See department for permission to enroll.
+202590,STS403,INDEPENDENT STUDY,639,95684,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,STS403,INDEPENDENT STUDY,645,95685,,TBA,,Open,19,0,"Cohen, Maurie",Face-to-Face,3,Book,See department for permission to enroll.
+202590,STS403,INDEPENDENT STUDY,658,95686,,TBA,,Open,19,0,"Estrada, Daniel",Face-to-Face,3,Book,See department for permission to enroll.
+202590,STS403,INDEPENDENT STUDY,668,95687,,TBA,,Open,19,0,"Semizer, Yelda",Face-to-Face,3,Book,See department for permission to enroll.
+202590,STS411,WORK EXPERIENCE II,644,95688,,TBA,,Open,19,0,"Khichi, Narendra-Neel",Face-to-Face,3,Book,See department for permission to enroll.
+202590,STS490,PROJECT AND SEMINAR I,644,95689,,TBA,,Open,19,0,"Khichi, Narendra-Neel",Face-to-Face,3,Book,"Permission of instructor required
+See department for permission to enroll."
+202590,STS491,PROJECT & SEMINAR II,644,95690,,TBA,,Open,19,4,"Khichi, Narendra-Neel",Face-to-Face,2,Book,"Permission of instructor required
+See department for permission to enroll."
+202590,THTR201,INTRO TO THEATRE,001,95691,MW,11:30 AM - 12:50 PM,KUPF 110,Open,20,5,"Edwards, Emily",Face-to-Face,3,Book,
+202590,THTR202,ACTING FUNDAMENTALS,001,95692,TR,10:00 AM - 11:20 AM,KUPF 110,Open,20,13,"Edwards, Emily",Face-to-Face,3,Book,
+202590,THTR208,MOVEMENT AND VOICE FOR THEATRE,001,95693,MW,10:00 AM - 11:20 AM,KUPF 110,Closed,20,20,"Edwards, Emily",Face-to-Face,3,Book,
+202590,THTR250,THEATRICAL DESIGN FUNDAMENTALS,001,95694,MW,1:00 PM - 2:20 PM,KUPF 110,Open,20,6,"Cohen, Stephanie",Face-to-Face,3,Book,
+202590,THTR254,THEATRICAL LIGHTING DESIGN,001,95695,TR,11:30 AM - 12:50 PM,KUPF 110,Open,20,9,,Face-to-Face,3,Book,
+202590,THTR258,STAGECRAFT I,001,95696,F,1:00 PM - 3:50 PM,KUPF 110,Open,20,8,"Zencheck, Jonathan",Face-to-Face,3,Book,
+202590,THTR258,STAGECRAFT I,101,96506,M,6:00 PM - 8:50 PM,KUPF 110,Open,20,9,"Zencheck, Jonathan",Face-to-Face,3,Book,
+202590,THTR396,INTERNSHIP,661,95697,,TBA,,Open,19,0,,Face-to-Face,3,Book,"Permission of instructor required
+See department for permission to enroll."
+202590,THTR411,ST: CREATIVITY + COLLABORATION,001,96507,TR,1:00 PM - 2:20 PM,KUPF 110,Open,20,3,"Self, Courtney",Face-to-Face,3,Book,
+202590,THTR480,INDEPENDENT THEATRE PRACTICUM,661,96554,,TBA,,Open,19,1,,Face-to-Face,2,Book,See department for permission to enroll.
+202590,THTR483,INDEPENDENT STUDY IN THEATER I,661,95698,,TBA,,Open,19,0,"Self, Courtney",Face-to-Face,3,Book,"Permission of instructor required
+See department for permission to enroll."
+202590,THTR484,INDEPENDENT STUDY THEATER II,661,95699,,TBA,,Open,19,0,"Self, Courtney",Face-to-Face,3,Book,"Permission of instructor required
+See department for permission to enroll."
+202590,TRAN610,TRANSPORTATION ECONOMICS,101,95701,M,6:00 PM - 8:50 PM,TIER LECT 2,Open,20,3,"Dimitrijevic, Branislav",Face-to-Face,3,Book,
+202590,TRAN615,TRAFFIC STUDIES AND CAPACITY,851,95702,,TBA,,Open,20,3,"Daniel, Janice",Online Newark,3,Book,"Restricted to Newark Campus Students Only
+Online Course"
+202590,TRAN615,TRAFFIC STUDIES AND CAPACITY,853,95703,,TBA,,Open,20,6,"Daniel, Janice",Online Virtual,3,Book,"Restricted to Virtual Campus Students Only
+Online Course"
+202590,TRAN650,URBAN SYSTEMS ENGINEERING,851,95704,,TBA,,Open,20,3,"Spasovic, Lazar",Online Virtual,3,Book,"Restricted to Virtual Campus Students Only
+Online Course"
+202590,TRAN650,URBAN SYSTEMS ENGINEERING,853,95705,,TBA,,Open,20,1,"Spasovic, Lazar",Online Newark,3,Book,"Restricted to Newark Campus Students Only
+Online Course"
+202590,TRAN700B,MASTER'S PROJECT,202,95706,,TBA,,Open,19,0,"Lee, Joyoung",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN700B,MASTER'S PROJECT,203,95707,,TBA,,Open,19,0,"Dimitrijevic, Branislav",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN700B,MASTER'S PROJECT,206,95708,,TBA,,Open,19,0,"Bai, Yun",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN700B,MASTER'S PROJECT,213,95709,,TBA,,Open,19,0,"Chien, I Jy",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN700B,MASTER'S PROJECT,216,95710,,TBA,,Open,19,0,"Daniel, Janice",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN700B,MASTER'S PROJECT,882,95711,,TBA,,Open,19,0,"Spasovic, Lazar",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN701B,MASTER'S THESIS,202,95712,,TBA,,Open,19,0,"Lee, Joyoung",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN701B,MASTER'S THESIS,203,95713,,TBA,,Open,19,0,"Dimitrijevic, Branislav",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN701B,MASTER'S THESIS,206,95714,,TBA,,Open,19,0,"Bai, Yun",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN701B,MASTER'S THESIS,213,95715,,TBA,,Open,19,0,"Chien, I Jy",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN701B,MASTER'S THESIS,216,95716,,TBA,,Open,19,0,"Daniel, Janice",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN701B,MASTER'S THESIS,882,95717,,TBA,,Open,19,0,"Spasovic, Lazar",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN702,ST: URBAN TRANSPORTATION NETWORKS,101,95718,T,6:00 PM - 8:50 PM,TIER 106,Open,20,2,"Bai, Yun",Face-to-Face,3,Book,
+202590,TRAN725,INDEPENDENT STUDY,202,95719,,TBA,,Open,19,0,"Lee, Joyoung",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN725,INDEPENDENT STUDY,203,95720,,TBA,,Open,19,0,"Dimitrijevic, Branislav",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN725,INDEPENDENT STUDY,206,95721,,TBA,,Open,19,0,"Bai, Yun",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN725,INDEPENDENT STUDY,211,95722,,TBA,,Open,19,0,"Marhaba, Taha",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN725,INDEPENDENT STUDY,213,95723,,TBA,,Open,19,0,"Chien, I Jy",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN725,INDEPENDENT STUDY,216,95724,,TBA,,Open,19,0,"Daniel, Janice",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN725,INDEPENDENT STUDY,851,95725,,TBA,,Open,19,0,,Online Virtual,3,Book,See department for permission to enroll.
+202590,TRAN725,INDEPENDENT STUDY,853,95726,,TBA,,Open,19,0,,Online Newark,3,Book,See department for permission to enroll.
+202590,TRAN725,INDEPENDENT STUDY,882,95727,,TBA,,Open,19,0,"Spasovic, Lazar",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN790A,DOCTORAL DISSERTATION,202,95728,,TBA,,Open,19,0,"Lee, Joyoung",Face-to-Face,1,Book,See department for permission to enroll.
+202590,TRAN790A,DOCTORAL DISSERTATION,203,95729,,TBA,,Open,19,0,"Dimitrijevic, Branislav",Face-to-Face,1,Book,See department for permission to enroll.
+202590,TRAN790A,DOCTORAL DISSERTATION,206,95730,,TBA,,Open,19,0,"Bai, Yun",Face-to-Face,1,Book,See department for permission to enroll.
+202590,TRAN790A,DOCTORAL DISSERTATION,211,95731,,TBA,,Open,19,0,"Marhaba, Taha",Face-to-Face,1,Book,See department for permission to enroll.
+202590,TRAN790A,DOCTORAL DISSERTATION,213,95732,,TBA,,Open,19,0,"Chien, I Jy",Face-to-Face,1,Book,See department for permission to enroll.
+202590,TRAN790A,DOCTORAL DISSERTATION,216,95733,,TBA,,Open,19,0,"Daniel, Janice",Face-to-Face,1,Book,See department for permission to enroll.
+202590,TRAN790A,DOCTORAL DISSERTATION,882,95734,,TBA,,Open,19,0,"Spasovic, Lazar",Face-to-Face,1,Book,See department for permission to enroll.
+202590,TRAN792,PRE,202,95735,,TBA,,Open,19,0,,Face-to-Face,0,Book,See department for permission to enroll.
+202590,TRAN792,PRE,203,95736,,TBA,,Open,19,0,,Face-to-Face,0,Book,See department for permission to enroll.
+202590,TRAN792,PRE,206,95737,,TBA,,Open,19,0,"Bai, Yun",Face-to-Face,0,Book,See department for permission to enroll.
+202590,TRAN792,PRE,211,95738,,TBA,,Open,19,0,,Face-to-Face,0,Book,See department for permission to enroll.
+202590,TRAN792,PRE,213,95739,,TBA,,Open,19,0,,Face-to-Face,0,Book,See department for permission to enroll.
+202590,TRAN792,PRE,216,95740,,TBA,,Open,19,0,,Face-to-Face,0,Book,See department for permission to enroll.
+202590,TRAN792,PRE,882,95741,,TBA,,Open,19,0,,Face-to-Face,0,Book,See department for permission to enroll.
+202590,TRAN792B,PRE,202,95742,,TBA,,Open,19,1,"Lee, Joyoung",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN792B,PRE,203,95743,,TBA,,Open,19,1,"Dimitrijevic, Branislav",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN792B,PRE,206,95744,,TBA,,Open,19,0,"Bai, Yun",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN792B,PRE,211,95745,,TBA,,Open,19,0,"Marhaba, Taha",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN792B,PRE,213,95746,,TBA,,Open,19,0,"Chien, I Jy",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN792B,PRE,216,95747,,TBA,,Open,19,0,"Daniel, Janice",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TRAN792B,PRE,882,95748,,TBA,,Open,19,0,"Spasovic, Lazar",Face-to-Face,3,Book,See department for permission to enroll.
+202590,TUTR089,FRESHMAN TUTORING I,001,95749,,TBA,,Open,99,0,,Face-to-Face,0,Book,
+202590,TUTR090,FRESHMEN TUTORING II,001,95750,,TBA,,Open,99,0,,Face-to-Face,0,Book,
+202590,USYS725,INDEPENDENT STUDY I,001,95751,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS725,INDEPENDENT STUDY I,002,95752,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS725,INDEPENDENT STUDY I,003,95753,,TBA,,Open,19,0,"Esperdy, Gabrielle",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS725,INDEPENDENT STUDY I,004,95754,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS725,INDEPENDENT STUDY I,012,96553,,TBA,,Open,19,0,"Kim, Hyojin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS725,INDEPENDENT STUDY I,016,96555,,TBA,,Open,19,0,"Narahara, Taro",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS725,INDEPENDENT STUDY I,022,96556,,TBA,,Open,19,0,"Feng, Yanxiao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS725,INDEPENDENT STUDY I,025,96557,,TBA,,Open,19,0,"Ko, Won Hee",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS726,INDEPENDENT STUDY II,002,95755,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS726,INDEPENDENT STUDY II,003,95756,,TBA,,Open,19,0,"Esperdy, Gabrielle",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS726,INDEPENDENT STUDY II,004,95757,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS726,INDEPENDENT STUDY II,012,96585,,TBA,,Open,19,1,"Kim, Hyojin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS726,INDEPENDENT STUDY II,016,96586,,TBA,,Open,19,0,"Narahara, Taro",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS726,INDEPENDENT STUDY II,022,96587,,TBA,,Open,19,0,"Feng, Yanxiao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS726,INDEPENDENT STUDY II,025,96588,,TBA,,Closed,0,0,"Ko, Won Hee",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,001,95758,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,002,95759,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,003,95760,,TBA,,Open,19,0,"Esperdy, Gabrielle",Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,004,95761,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,005,95762,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,006,95763,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,008,95764,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,010,95765,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,012,95766,,TBA,,Open,19,2,"Kim, Hyojin",Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,014,95767,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,016,95768,,TBA,,Open,19,1,"Narahara, Taro",Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,025,96563,,TBA,,Open,19,0,"Ko, Won Hee",Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,039,95769,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,645,95770,,TBA,,Open,19,0,,Face-to-Face,1,Book,See department for permission to enroll.
+202590,USYS790A,DISSERTATION RESEARCH,022,96562,,TBA,,Closed,0,0,"Feng, Yanxiao",Face-to-Face,1,Book,
+202590,USYS790B,DISSERTATION RESEARCH,001,95771,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790B,DISSERTATION RESEARCH,002,95772,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790B,DISSERTATION RESEARCH,003,95773,,TBA,,Open,19,0,"Esperdy, Gabrielle",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790B,DISSERTATION RESEARCH,004,95774,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790B,DISSERTATION RESEARCH,005,95775,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790B,DISSERTATION RESEARCH,006,95776,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790B,DISSERTATION RESEARCH,012,96558,,TBA,,Open,19,0,"Kim, Hyojin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790B,DISSERTATION RESEARCH,016,96559,,TBA,,Open,19,0,"Narahara, Taro",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790B,DISSERTATION RESEARCH,022,96560,,TBA,,Open,19,0,"Feng, Yanxiao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790B,DISSERTATION RESEARCH,645,95777,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790B,DISSERTATION RESEARCH,025,96561,,,,Closed,0,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,001,95778,,TBA,,Open,19,0,,Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,002,95779,,TBA,,Open,19,0,,Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,003,95780,,TBA,,Open,19,0,"Esperdy, Gabrielle",Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,004,95781,,TBA,,Open,19,0,,Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,005,95782,,TBA,,Open,19,0,,Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,006,95783,,TBA,,Open,19,0,,Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,012,96564,,TBA,,Open,19,0,"Kim, Hyojin",Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,016,96565,,TBA,,Open,19,0,"Narahara, Taro",Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,022,96566,,TBA,,Open,19,0,"Feng, Yanxiao",Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,645,95784,,TBA,,Open,19,0,,Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790C,DISSERTATION RESEARCH,025,96567,,TBA,,Closed,0,0,"Ko, Won Hee",Face-to-Face,6,Book,See department for permission to enroll.
+202590,USYS790D,DISSERTATION RESEARCH,001,95785,,TBA,,Open,19,0,,Face-to-Face,9,Book,See department for permission to enroll.
+202590,USYS790D,DISSERTATION RESEARCH,002,95786,,TBA,,Open,19,0,,Face-to-Face,9,Book,See department for permission to enroll.
+202590,USYS790D,DISSERTATION RESEARCH,003,95787,,TBA,,Open,19,0,"Esperdy, Gabrielle",Face-to-Face,9,Book,See department for permission to enroll.
+202590,USYS790D,DISSERTATION RESEARCH,004,95788,,TBA,,Open,19,0,,Face-to-Face,9,Book,See department for permission to enroll.
+202590,USYS790D,DISSERTATION RESEARCH,012,96568,,TBA,,Open,19,0,"Kim, Hyojin",Face-to-Face,9,Book,See department for permission to enroll.
+202590,USYS790D,DISSERTATION RESEARCH,022,96570,,TBA,,Open,19,0,"Feng, Yanxiao",Face-to-Face,9,Book,See department for permission to enroll.
+202590,USYS790D,DISSERTATION RESEARCH,025,96571,,TBA,,Open,19,0,"Ko, Won Hee",Face-to-Face,9,Book,See department for permission to enroll.
+202590,USYS790D,DISSERTATION RESEARCH,645,95789,,TBA,,Open,19,0,,Face-to-Face,9,Book,See department for permission to enroll.
+202590,USYS790D,DISSERTATION RESEARCH,016,96569,,TBA,,Closed,0,0,"Narahara, Taro",Face-to-Face,9,Book,See department for permission to enroll.
+202590,USYS790E,DISSERTATION RESEARCH,001,95790,,TBA,,Open,19,0,,Face-to-Face,12,Book,See department for permission to enroll.
+202590,USYS790E,DISSERTATION RESEARCH,002,95791,,TBA,,Open,19,0,,Face-to-Face,12,Book,See department for permission to enroll.
+202590,USYS790E,DISSERTATION RESEARCH,003,95792,,TBA,,Open,19,0,"Esperdy, Gabrielle",Face-to-Face,12,Book,See department for permission to enroll.
+202590,USYS790E,DISSERTATION RESEARCH,004,95793,,TBA,,Open,19,0,,Face-to-Face,12,Book,See department for permission to enroll.
+202590,USYS790E,DISSERTATION RESEARCH,012,96572,,TBA,,Open,19,0,"Kim, Hyojin",Face-to-Face,12,Book,See department for permission to enroll.
+202590,USYS790E,DISSERTATION RESEARCH,016,96574,,TBA,,Open,19,0,"Narahara, Taro",Face-to-Face,12,Book,See department for permission to enroll.
+202590,USYS790E,DISSERTATION RESEARCH,025,96575,,TBA,,Open,19,0,"Ko, Won Hee",Face-to-Face,12,Book,See department for permission to enroll.
+202590,USYS790E,DISSERTATION RESEARCH,645,95794,,TBA,,Open,19,0,,Face-to-Face,12,Book,See department for permission to enroll.
+202590,USYS792,PRE,001,95795,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS792,PRE,002,95796,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS792,PRE,003,95797,,TBA,,Open,19,1,"Esperdy, Gabrielle",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS792,PRE,004,95798,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS792,PRE,012,96576,,TBA,,Open,19,0,"Kim, Hyojin",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS792,PRE,016,96577,,TBA,,Open,19,1,"Narahara, Taro",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS792,PRE,022,96578,,TBA,,Open,19,1,"Feng, Yanxiao",Face-to-Face,3,Book,See department for permission to enroll.
+202590,USYS792,PRE,025,96579,,TBA,,Open,19,1,"Ko, Won Hee",Face-to-Face,3,Book,
+202590,USYS792,PRE,645,95799,,TBA,,Open,19,0,,Face-to-Face,3,Book,See department for permission to enroll.

@@ -1,0 +1,69 @@
+First Year
+Fall Semester Credits
+MATH 111 Calculus I 4
+CS 100 Roadmap to Computing 3
+ENGL 101 English Composition: Introduction to Academic Writing 3
+PHYS 111 Physics I 3
+PHYS 111A Physics I Lab 1
+FYS SEM First-Year Student Seminar 0
+Term Credits 14
+Spring Semester
+MATH 112 Calculus II 4
+Social Science GER 3
+PHYS 121 Physics II 3
+PHYS 121A Physics II Lab 1
+ENGL 102 English Composition: Introduction to Writing for Research 3
+Term Credits 14
+Second Year
+Fall Semester
+MATH 213 Calculus III B 4
+MATH 227 Mathematical Modeling 3
+(
+Select one of the following: 3
+MATH 244 Introduction to Probability Theory
+MATH 333 Probability and Statistics
+)
+PHYS 234 Physics III 3
+Free Elective 3
+Term Credits 16
+Spring Semester
+MATH 222 Differential Equations 4
+MATH 337 Linear Algebra 3
+MATH 340 Applied Numerical Methods 3
+Technical Elective 3
+History and Humanities GER 200 level 3
+Term Credits 16
+Third Year
+Fall Semester
+MATH 332 Introduction to Functions of a Complex Variable 3
+MATH 473 Intermediate Differential Equations 3
+MATH 480 Introductory Mathematical Analysis 3
+Technical Elective 3
+History and Humanities GER 300+ level 3
+Term Credits 15
+Spring Semester
+MATH 331 Introduction to Partial Differential Equations 3
+MATH 481 Advanced Calculus 3
+Math 300+ Elective 3
+Technical Elective 3
+History and Humanities GER 300+ level 3
+Term Credits 15
+Fourth Year
+Fall Semester
+MATH 450 Methods Of Applied Math 3
+Select one of the following 3
+MATH 391 Numerical Linear Algebra
+MATH 440 Advanced Applied Numerical Methods
+MATH 448 Stochastic Simulation
+Technical Elective 3
+Free Elective 3
+Humanities and Social Science Senior Seminar GER 3
+Term Credits 15
+Spring Semester
+Math 400+ Elective 3
+MATH 451 Methods Appl Math II 3
+Technical Elective 3
+Technical Elective 3
+Free Elective 3
+Term Credits 15
+Total Credits 120

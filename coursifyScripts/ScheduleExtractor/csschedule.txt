@@ -1,0 +1,64 @@
+First Year
+Fall Semester Credits
+CS 100 Roadmap to Computing 3
+MATH 111 Calculus I 4
+ENGL 101 English Composition: Introduction to Academic Writing 3
+PHYS 111 Physics I 3
+PHYS 111A Physics I Lab 1
+FYS SEM First-Year Student Seminar 0
+Term Credits 14
+Spring Semester
+CS 113 Introduction to Computer Science I 3
+MATH 112 Calculus II 4
+ENGL 102 English Composition: Introduction to Writing for Research 3
+PHYS 121 Physics II 3
+PHYS 121A Physics II Lab 1
+Term Credits 14
+Second Year
+Fall Semester
+CS 114 Introduction to Computer Science II 3
+CS/IS/IT Elective 200 or above 1 3
+MATH 333 Probability and Statistics 3
+Science Elective 3
+History and Humanities GER 200 level 3
+Term Credits 15
+Spring Semester
+CS 241 Foundations of Computer Science I 3
+CS 280 Programming Language Concepts 3
+IS 350 Computers, Society and Ethics 3
+COM 312 or COM 313 Oral Presentations or Technical Writing 3
+MATH 337 Linear Algebra 3
+YWCC 207 Computing & Effective Com 1
+Term Credits 16
+Third Year
+Fall Semester
+CS 288 Intensive Programming in Linux 3
+CS 332 Principles of Operating Systems 3
+Social Sciences GER 3
+CS 301 Introduction to Data Science 3
+CS 356 Introduction to Computer Networks 3
+Term Credits 15
+Spring Semester
+CS 331 Database System Design & Mgmt 3
+YWCC 307 Professional Dev in Computing 1
+CS Elective 300 or above 3
+CS 341 Foundations of Computer Science II 3
+CS 350 Intro to Computer Systems 3
+CS 351 Introduction to Cybersecurity 3
+Term Credits 16
+Fourth Year
+Fall Semester
+CS 435 Advanced Data Structures and Algorithm Design 3
+CS 490 Guided Design in Software Engineering 3
+History and Humanities GER 300+ level 3
+CS Elective 300 or above 3
+CS Elective 300 or above 3
+Term Credits 15
+Spring Semester
+CS 491 Senior Project 3
+Humanities and Social Science Senior Seminar GER 3
+CS Elective 300 or above 3
+General Elective 2 3
+CS/IS/IT Elective 200 or above 1 3
+Term Credits 15
+Total Credits 120

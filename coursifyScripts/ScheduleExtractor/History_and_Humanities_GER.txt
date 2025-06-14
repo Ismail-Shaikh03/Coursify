@@ -1,0 +1,24 @@
+COM 200 Communicating in Organizations
+COM 201 Introduction to Communication and Media
+COM 230 Introduction to Film
+HIST 213 The Twentieth-Century World
+HIST 214 Tech & Cult in Amer History
+HUM 211 The Pre-Modern World
+HUM 212 The Modern World
+LIT 230 Introduction to Literature
+PSY 210 Introduction to Psychology
+STS 201 Understanding Technological Society
+STS 205 Intro to Research Methods
+STS 221 Introduction to Sociology
+STS 257 Technology, Society and Culture: An American View
+STS 258 Technology, Society and Culture: A Global View
+THTR 208 Movement for Theatre
+THTR 209 Voice and Speech for Theatre I
+THTR 210 Voice & Speech for Theater II
+THTR 212 From Page to Stage
+THTR 213 Directing I
+THTR 215 Acting II
+THTR 216 Improvisational Theatre Short Form
+THTR 217 Improvisational Theatre Long Form
+THTR 261 Performance I
+THTR 262 Performance II

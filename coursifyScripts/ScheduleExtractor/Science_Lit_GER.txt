@@ -1,0 +1,25 @@
+Biology Courses
+BIOL 115 Evolution and Biology of Sex 3
+BIOL 150 Living in a Variable Universe 4
+Chemistry Courses
+CHEM 121 Fundamentals of Chemical Principles I 3
+CHEM 122 Fundamentals of Chemical Principles II 3
+CHEM 125 General Chemistry I 3
+CHEM 125A General Chemistry Lab I 1
+CHEM 126 General Chemistry II 3
+CHEM 126A Gen Chemistry Lab II 1
+EVSC 125 Fundamentals of Environmental Sciences 3
+Physics Courses
+PHYS 102 General Physics I 3
+PHYS 102A General Physics I Lab 1
+PHYS 103 General Physics II 3
+PHYS 103A General Physics II Lab 1
+PHYS 111 Physics I 3
+PHYS 111A Physics I Lab 1
+PHYS 121 Physics II 3
+PHYS 121A Physics II Lab 1
+PHYS 202 Introductory Astronomy and Cosmology 3
+PHYS 202A Astronomy and Cosmology Laboratory 1
+PHYS 203 The Earth in Space 3
+PHYS 203A The Earth in Space Lab 1
+PHYS 204 Biophysics of Life 3
