@@ -1,30 +1,39 @@
 import React, { useEffect, useState } from 'react';
 
-const ChatInterface = ({ messages, handleOptionClick, chatMessagesRef }) => {
-  // Track which message indices have had an option selected
+const ChatInterface = ({ 
+  messages, 
+  handleOptionClick, 
+  chatMessagesRef, 
+  isLoading = false, 
+  isConnected = true, 
+  onRetry 
+}) => {
   const [answeredMessages, setAnsweredMessages] = useState(new Set());
 
-  // Add effect to scroll to bottom when messages change
   useEffect(() => {
     if (chatMessagesRef?.current) {
       chatMessagesRef.current.scrollTop = chatMessagesRef.current.scrollHeight;
     }
   }, [messages, chatMessagesRef]);
 
-  // Handle option click with tracking
   const handleOptionWithTracking = (option, messageIndex) => {
-    // Add this message index to the set of answered messages
     setAnsweredMessages(prev => new Set([...prev, messageIndex]));
     
-    // Call the original handler
     handleOptionClick(option);
   };
+
+  const LoadingSpinner = () => (
+    <div className="loading-spinner">
+      <div className="spinner"></div>
+    </div>
+  );
 
   return (
     <div className="chat-container">
       <div className="chat-header">
         <img src="/chat-logo.jpg" alt="Chat Icon" className="chat-header-icon" />
         Schedule Assistant
+        {isLoading && <LoadingSpinner />}
       </div>
       
       <div className="chat-messages" ref={chatMessagesRef}>
@@ -36,9 +45,9 @@ const ChatInterface = ({ messages, handleOptionClick, chatMessagesRef }) => {
                 {message.options.map((option, optIndex) => (
                   <button 
                     key={optIndex} 
-                    className={`message-btn ${answeredMessages.has(index) ? 'disabled' : ''}`}
+                    className={`message-btn ${answeredMessages.has(index) || !isConnected ? 'disabled' : ''}`}
                     onClick={() => handleOptionWithTracking(option, index)}
-                    disabled={answeredMessages.has(index)}
+                    disabled={answeredMessages.has(index) || isLoading || !isConnected}
                   >
                     {option}
                   </button>
@@ -47,6 +56,16 @@ const ChatInterface = ({ messages, handleOptionClick, chatMessagesRef }) => {
             )}
           </div>
         ))}
+        
+        {isLoading && (
+          <div className="message bot-message loading-message">
+            <div className="typing-indicator">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
