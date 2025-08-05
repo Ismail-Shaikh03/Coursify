@@ -1,7 +1,5 @@
-// src/services/api.js
 import axios from 'axios';
 
-// Create axios instance with base configuration
 const API = axios.create({
   baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8080',
   timeout: 30000, // 30 second timeout
@@ -10,7 +8,6 @@ const API = axios.create({
   },
 });
 
-// Request interceptor for logging or adding auth tokens
 API.interceptors.request.use(
   (config) => {
     console.log(`Making ${config.method?.toUpperCase()} request to ${config.url}`);
@@ -22,7 +19,6 @@ API.interceptors.request.use(
   }
 );
 
-// Response interceptor for error handling
 API.interceptors.response.use(
   (response) => {
     console.log(`Response received from ${response.config.url}:`, response.status);
@@ -31,7 +27,6 @@ API.interceptors.response.use(
   (error) => {
     console.error('Response error:', error);
     
-    // Handle different error scenarios
     if (error.code === 'ECONNABORTED') {
       throw new Error('Request timeout - please try again');
     }
@@ -52,9 +47,7 @@ API.interceptors.response.use(
   }
 );
 
-// API service methods
 export const apiService = {
-  // Health check endpoint
   healthCheck: async () => {
     try {
       const response = await API.get('/');
@@ -64,7 +57,6 @@ export const apiService = {
     }
   },
 
-  // Get schedule based on user preferences
   getSchedule: async (userPreferences) => {
     try {
       const response = await API.post('/chat', userPreferences);
@@ -74,7 +66,6 @@ export const apiService = {
     }
   },
 
-  // Additional endpoints that might be useful
   getCourses: async (filters = {}) => {
     try {
       const response = await API.get('/courses', { params: filters });
@@ -84,7 +75,6 @@ export const apiService = {
     }
   },
 
-  // Save user preferences (if backend supports it)
   savePreferences: async (preferences) => {
     try {
       const response = await API.post('/preferences', preferences);
@@ -95,7 +85,6 @@ export const apiService = {
   },
 };
 
-// Utility function for handling API calls with loading states
 export const withLoading = async (apiCall, setLoading) => {
   if (setLoading) setLoading(true);
   

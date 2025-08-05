@@ -17,17 +17,27 @@ const Survey = () => {
 
   const [selectedCourses, setSelectedCourses] = useState([]);
   const [semester, setSemester] = useState('Fall 2025');
-  const [isLoading, setIsLoading] = useState(true); // Start with loading true
+  const [isLoading, setIsLoading] = useState(true); 
   const [error, setError] = useState(null);
-  const [isConnected, setIsConnected] = useState(false); // Track connection status
+  const [isConnected, setIsConnected] = useState(false); 
 
   const chatMessagesRef = useRef(null);
 
   const timeSlots = [
-    '8:30 am','9:00 am','9:30 am', '9:50 am','10:00 am','10:20 am', '10:30 am','10:50 am', '11:00 am','11:20 am', '11:30 am',
-    '11:50 am','12:00 pm', '12:30 pm', '12:50 pm','1:00 pm','1:20 pm', '1:30 pm','1:45 pm','1:50 pm', '2:00 pm','2:20 pm', '2:30 pm','2:50 pm', '3:00 pm','3:20 pm', '3:30 pm','3:50 pm',
-    '4:00 pm','4:20 pm', '4:30 pm','4:50 pm', '5:00 pm','5:20 pm' ,'5:30 pm', '5:50 pm','6:00 pm','6:20 pm', '6:30 pm', '6:50 pm','7:00 pm','7:20 pm', '7:30 pm','7:50 pm',
-    '8:00 pm','8:20 pm', '8:30 pm','8:50 pm', '9:00 pm'
+    '8:00 am', '8:30 am', 
+    '9:00 am', '9:30 am', 
+    '10:00 am', '10:30 am', 
+    '11:00 am', '11:30 am',
+    '12:00 pm', '12:30 pm', 
+    '1:00 pm', '1:30 pm', 
+    '2:00 pm', '2:30 pm', 
+    '3:00 pm', '3:30 pm',
+    '4:00 pm', '4:30 pm', 
+    '5:00 pm', '5:30 pm', 
+    '6:00 pm', '6:30 pm', 
+    '7:00 pm', '7:30 pm',
+    '8:00 pm', '8:30 pm', 
+    '9:00 pm', '9:30 pm'
   ];
 
   const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -39,9 +49,8 @@ const Survey = () => {
     }
   }, [messages]);
 
-  // Check backend health on component mount - only once
   useEffect(() => {
-    let isMounted = true; // Flag to prevent state updates if component unmounts
+    let isMounted = true; 
     
     const checkBackendHealth = async () => {
       const result = await withLoading(
@@ -51,13 +60,11 @@ const Survey = () => {
       
       if (isMounted) {
         if (result.success) {
-          // Backend is connected, start the survey
           setIsConnected(true);
           setError(null);
           addMessage('bot', "Hi there! I'll help you build your schedule. Let's start with a few questions to find the right courses for you.");
           addMessage('bot', "Are you a full-time or part-time student?", ['Full-time', 'Part-time']);
         } else {
-          // Backend is not connected, show error state
           setIsConnected(false);
           setError("Unable to connect to the backend service. Please check if the server is running.");
           addMessage('bot', "I'm having trouble connecting to the server. Please refresh the page or try again later.");
@@ -73,10 +80,8 @@ const Survey = () => {
     };
   }, []); // Empty dependency array ensures this only runs once
 
-  // Helper functions
   const addMessage = (type, text, options = []) => {
     setMessages(prev => {
-      // Check if this exact message already exists to prevent duplicates
       const messageExists = prev.some(msg => msg.text === text && msg.type === type);
       if (messageExists) {
         return prev;
@@ -112,22 +117,47 @@ const Survey = () => {
     }
   };
 
-  const normalizeCoursesFromBackend = (courseObjects) => {
-    if (!courseObjects || typeof courseObjects !== 'object') {
-      throw new Error("Invalid course data received from backend");
+  const normalizeCoursesFromBackend = (courseArray) => {
+    if (!Array.isArray(courseArray)) {
+      console.error("Invalid course data received from backend: expected an array.", courseArray);
+      return [];
     }
 
-    return Object.values(courseObjects).map(course => ({
-      ...course,
-      time: course.time?.trim().toLowerCase() || '',
-      endTime: course.endTime?.trim().toLowerCase() || '',
-    })).filter(course => course.code && course.name); // Filter out invalid courses
+    const dayMap = { M: 'Monday', T: 'Tuesday', W: 'Wednesday', R: 'Thursday', F: 'Friday', S: 'Saturday' };
+
+    const formatTime = (timeStr) => {
+      if (!timeStr) return '';
+      let cleanedTime = timeStr.trim().toLowerCase();
+      return cleanedTime.replace(/(\s*)?(am|pm)/, ' $2');
+    };
+
+    return courseArray.map(course => {
+      const parsedDays = course.days ? course.days.split('').map(char => dayMap[char]).filter(Boolean) : [];
+      
+      let startTime = '';
+      let endTime = '';
+      if (course.times && course.times.includes('-')) {
+        let [start, end] = course.times.split('-');
+        startTime = formatTime(start);
+        endTime = formatTime(end);
+      }
+
+      return {
+        code: course.courseCode,
+        name: course.title,
+        credits: course.credits,
+        location: course.location,
+        days: parsedDays,
+        time: startTime,
+        endTime: endTime,
+        color: `color-${Math.floor(Math.random() * 5) + 1}`
+      };
+    });
   };
 
   const handleScheduleGeneration = async () => {
     addMessage("bot", "Please wait while I retrieve the information for you");
     
-    // Create animated dots effect
     let dots = "";
     const interval = setInterval(() => {
       dots = dots.length < 3 ? dots + "." : "";
@@ -153,6 +183,7 @@ const Survey = () => {
 
     if (result.success) {
       try {
+        console.log(result)
         const normalizedCourses = normalizeCoursesFromBackend(result.data);
         setSelectedCourses(normalizedCourses);
         addMessage("bot", "Here are your recommended courses for the semester. If a course isn't showing up on the grid, that is because it was unable to calculate a proper time for that specific course.");
