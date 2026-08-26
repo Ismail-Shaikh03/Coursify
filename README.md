@@ -31,3 +31,12 @@ npm install
 
 # Backend Packages
 npm install express npm install cors npm install mysql2 npm install dotenv npm install nodemon --save-dev
+
+
+
+# Hackathon Submission:
+<img width="1467" height="732" alt="Screenshot 2026-08-20 at 12 01 36 PM" src="https://github.com/user-attachments/assets/87ebf518-201a-4596-8919-d62d146be86b" />
+
+# After Hackathon:
+<img width="1426" height="895" alt="Screenshot 2026-08-26 at 1 21 26 PM" src="https://github.com/user-attachments/assets/53b181db-ec27-49eb-90ad-1e51dbc33e47" />
+
